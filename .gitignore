@@ -1,0 +1,9 @@
+*.pcap
+*.log
+*.out
+*.csv
+*.pkl
+__pycache__/
+*.pyc
+alert_fast.txt
+nohup.out

@@ -1,0 +1,22 @@
+-- Snort 3 Fast Configuration for Real-Time ML
+
+-- Define HOME_NET
+ips =
+{
+    HOME_NET = '192.168.10.10/24'
+}
+
+-- Load rules
+ips.rule_files = { '/etc/snort/rules/local.rules' }
+
+-- Enable fast alert output
+output = {
+    fast = { filename = '/home/nimisha/snort_project/alert_fast.txt' }
+}
+
+-- DAQ module (pcap for offline or live)
+daq =
+{
+    module = 'pcap',
+    interface = 'ens37'
+}
