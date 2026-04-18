@@ -1,103 +1,53 @@
-import time
-import joblib
 import subprocess
+import re
+import time
+import os
 
-# ==============================
-# LOAD ML MODEL (IMPORTANT)
-# ==============================
-model = joblib.load("snort_rf_model_enhanced.pkl")
+print("🚀 Hybrid IDS Started (Direct Snort Stream)...")
 
-print("🚀 Hybrid IDS Started...\n")
+# Start snort process
+snort_cmd = [
+    "sudo", "snort",
+    "-A", "fast",
+    "-i", "ens37",
+    "-c", "/etc/snort/snort.conf"
+]
 
-# ==============================
-# CONFIG
-# ==============================
-alert_file = "alert_fast.txt"
-blocked_ips = {}
-BLOCK_TIME = 30  # seconds
+process = subprocess.Popen(snort_cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
 
-last_print_time = 0
+# Tracking
+ip_count = {}
 
-# ==============================
-# BLOCK FUNCTION
-# ==============================
-def block_ip(ip):
-    if ip not in blocked_ips:
-        subprocess.run(["sudo", "iptables", "-A", "INPUT", "-s", ip, "-j", "DROP"])
-        blocked_ips[ip] = time.time()
-        print(f"🚫 Blocking IP: {ip}")
-
-# ==============================
-# UNBLOCK FUNCTION
-# ==============================
-def unblock_ips():
-    current_time = time.time()
-    for ip in list(blocked_ips.keys()):
-        if current_time - blocked_ips[ip] > BLOCK_TIME:
-            subprocess.run(["sudo", "iptables", "-D", "INPUT", "-s", ip, "-j", "DROP"])
-            print(f"✅ Unblocked IP: {ip}")
-            del blocked_ips[ip]
-
-# ==============================
-# EXTRACT SOURCE IP
-# ==============================
 def extract_ip(line):
-    try:
-        parts = line.split("{")[1].split("}")[1].strip()
-        src_ip = parts.split("->")[0].strip()
-        return src_ip
-    except:
-        return None
+    match = re.search(r'\{ICMP\} ([0-9.]+) -> ([0-9.]+)', line)
+    if match:
+        return match.group(1)
+    return None
 
-# ==============================
-# MAIN LOOP
-# ==============================
-with open(alert_file, "r") as f:
-    f.seek(0, 2)  # go to end of file
+while True:
+    line = process.stdout.readline()
 
-    while True:
-        line = f.readline()
+    if not line:
+        continue
 
-        if not line:
-            time.sleep(0.5)
+    if "ICMP" in line:
+        print("\n🚨 ALERT:", line.strip())
+
+        ip = extract_ip(line)
+        if not ip:
             continue
 
-        if "ICMP" in line:
-            current_time = time.time()
+        # Count burst
+        ip_count[ip] = ip_count.get(ip, 0) + 1
 
-            # Avoid spam (print every 2 sec)
-            if current_time - last_print_time > 2:
-                print("🚨 ALERT:", line.strip())
+        print("📊 Alert Burst:", ip_count[ip])
 
-                src_ip = extract_ip(line)
+        # 🔥 THRESHOLD DETECTION
+        if ip_count[ip] >= 5:
+            print("🔥 ATTACK DETECTED")
 
-                # ==============================
-                # SIMPLE REAL FEATURES (7 features)
-                # ==============================
-                features = [
-                    1,  # ICMP
-                    1,  # packet size (dummy)
-                    1,  # packet rate (dummy)
-                    1,  # time diff
-                    1,  # protocol flag
-                    1,  # anomaly flag
-                    1   # extra feature
-                ]
+            os.system(f"sudo iptables -A INPUT -s {ip} -j DROP")
+            print(f"🚫 Blocking IP: {ip}")
 
-                prediction = model.predict([features])[0]
-
-                if prediction == 1:
-                    print("🔥 ML DETECTED: ATTACK")
-
-                    if src_ip:
-                        block_ip(src_ip)
-
-                else:
-                    print("✅ ML DETECTED: NORMAL")
-
-                print()
-
-                last_print_time = current_time
-
-        # Always check unblock
-        unblock_ips()
+        else:
+            print("✅ NORMAL TRAFFIC")

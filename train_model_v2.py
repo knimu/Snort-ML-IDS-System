@@ -4,28 +4,28 @@ from sklearn.model_selection import train_test_split
 import joblib
 
 # Load dataset
-df = pd.read_csv("processed_dataset.csv")
+df = pd.read_csv("training_data.csv")
 
-# FINAL FEATURES
 FEATURES = [
-    "packet_size",
-    "protocol",
+    "src_ip_numeric",
+    "dst_ip_numeric",
     "src_port",
     "dst_port",
-    "duration",
+    "protocol",
+    "packet_size",
+    "tcp_flags",
     "syn_count",
-    "icmp_count"
+    "icmp_count",
+    "flow_duration"
 ]
 
 X = df[FEATURES]
-y = df["label"]   # attack type
+y = df["label"]   # normal, ddos, icmp_flood, scan, brute_force
 
-# Split
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42
 )
 
-# Model
 model = RandomForestClassifier(
     n_estimators=200,
     max_depth=15,
@@ -34,9 +34,8 @@ model = RandomForestClassifier(
 
 model.fit(X_train, y_train)
 
-print("Accuracy:", model.score(X_test, y_test))
+print("✅ Features expected:", model.n_features_in_)
 
-# Save model
 joblib.dump(model, "snort_rf_model_v2.pkl")
 
-print("Model saved!")
+print("✅ Model saved successfully")
