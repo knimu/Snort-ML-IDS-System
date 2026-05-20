@@ -4,12 +4,12 @@ import joblib
 
 print("🚀 Training ML model...")
 
-df = pd.read_csv("processed_dataset.csv")
+df = pd.read_csv("clean_dataset.csv")
 
 X = df[["packet_rate", "spike"]]
 y = df["label"]
 
-model = RandomForestClassifier(n_estimators=50)
+model = RandomForestClassifier(n_estimators=100)
 model.fit(X, y)
 
 joblib.dump(model, "clean_model.pkl")

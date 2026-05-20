@@ -1,0 +1,985 @@
+{"ip": "192.168.10.10", "rate": 1, "attack": false, "type": "Normal", "ml": false, "features": {"packet_rate": 1, "unique_src_ips": 1}, "timestamp": 1776923381}
+{"ip": "192.168.10.20", "rate": 1, "attack": false, "type": "Normal", "ml": false, "features": {"packet_rate": 1, "unique_src_ips": 2}, "timestamp": 1776923381}
+{"ip": "192.168.1.200", "rate": 1, "attack": false, "type": "Normal", "ml": false, "features": {"packet_rate": 1, "unique_src_ips": 1}, "timestamp": 1776923439}
+{"ip": "192.168.1.200", "rate": 572, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 572, "unique_src_ips": 1}, "timestamp": 1776923440}
+{"ip": "192.168.1.200", "rate": 573, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 573, "unique_src_ips": 1}, "timestamp": 1776923447}
+{"ip": "192.168.1.200", "rate": 1357, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 1357, "unique_src_ips": 1}, "timestamp": 1776923448}
+{"ip": "192.168.1.200", "rate": 2062, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 2062, "unique_src_ips": 1}, "timestamp": 1776923449}
+{"ip": "192.168.1.200", "rate": 2194, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 2194, "unique_src_ips": 1}, "timestamp": 1776923450}
+{"ip": "192.168.1.200", "rate": 2636, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 2636, "unique_src_ips": 1}, "timestamp": 1776923451}
+{"ip": "192.168.1.200", "rate": 3337, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 3337, "unique_src_ips": 1}, "timestamp": 1776923452}
+{"ip": "192.168.1.200", "rate": 4185, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 4185, "unique_src_ips": 1}, "timestamp": 1776923453}
+{"ip": "192.168.1.200", "rate": 4841, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 4841, "unique_src_ips": 1}, "timestamp": 1776923454}
+{"ip": "192.168.1.200", "rate": 5480, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 5480, "unique_src_ips": 1}, "timestamp": 1776923455}
+{"ip": "192.168.1.200", "rate": 6236, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 6236, "unique_src_ips": 1}, "timestamp": 1776923456}
+{"ip": "192.168.1.200", "rate": 6846, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 6846, "unique_src_ips": 1}, "timestamp": 1776923457}
+{"ip": "192.168.1.200", "rate": 6899, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 6899, "unique_src_ips": 1}, "timestamp": 1776923458}
+{"ip": "192.168.1.200", "rate": 6874, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 6874, "unique_src_ips": 1}, "timestamp": 1776923459}
+{"ip": "192.168.1.200", "rate": 6987, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 6987, "unique_src_ips": 1}, "timestamp": 1776923460}
+{"ip": "192.168.1.200", "rate": 7314, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7314, "unique_src_ips": 1}, "timestamp": 1776923461}
+{"ip": "192.168.1.200", "rate": 7322, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7322, "unique_src_ips": 1}, "timestamp": 1776923462}
+{"ip": "192.168.1.200", "rate": 7245, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7245, "unique_src_ips": 1}, "timestamp": 1776923463}
+{"ip": "192.168.1.200", "rate": 7302, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7302, "unique_src_ips": 1}, "timestamp": 1776923464}
+{"ip": "192.168.1.200", "rate": 7344, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7344, "unique_src_ips": 1}, "timestamp": 1776923465}
+{"ip": "192.168.1.200", "rate": 7418, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7418, "unique_src_ips": 1}, "timestamp": 1776923466}
+{"ip": "192.168.1.200", "rate": 7691, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7691, "unique_src_ips": 1}, "timestamp": 1776923467}
+{"ip": "192.168.1.200", "rate": 7739, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7739, "unique_src_ips": 1}, "timestamp": 1776923468}
+{"ip": "192.168.1.200", "rate": 7642, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7642, "unique_src_ips": 1}, "timestamp": 1776923469}
+{"ip": "192.168.1.200", "rate": 7697, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7697, "unique_src_ips": 1}, "timestamp": 1776923470}
+{"ip": "192.168.1.200", "rate": 7679, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7679, "unique_src_ips": 1}, "timestamp": 1776923471}
+{"ip": "192.168.1.200", "rate": 7933, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7933, "unique_src_ips": 1}, "timestamp": 1776923472}
+{"ip": "192.168.1.200", "rate": 8086, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8086, "unique_src_ips": 1}, "timestamp": 1776923473}
+{"ip": "192.168.1.200", "rate": 8179, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8179, "unique_src_ips": 1}, "timestamp": 1776923474}
+{"ip": "192.168.1.200", "rate": 8156, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8156, "unique_src_ips": 1}, "timestamp": 1776923475}
+{"ip": "192.168.1.200", "rate": 8167, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8167, "unique_src_ips": 1}, "timestamp": 1776923476}
+{"ip": "192.168.1.200", "rate": 7809, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7809, "unique_src_ips": 1}, "timestamp": 1776923477}
+{"ip": "192.168.1.200", "rate": 7460, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7460, "unique_src_ips": 1}, "timestamp": 1776923478}
+{"ip": "192.168.1.200", "rate": 7541, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7541, "unique_src_ips": 1}, "timestamp": 1776923479}
+{"ip": "192.168.1.200", "rate": 7563, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7563, "unique_src_ips": 1}, "timestamp": 1776923480}
+{"ip": "192.168.1.200", "rate": 7404, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7404, "unique_src_ips": 1}, "timestamp": 1776923481}
+{"ip": "192.168.1.200", "rate": 7393, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7393, "unique_src_ips": 1}, "timestamp": 1776923482}
+{"ip": "192.168.1.200", "rate": 7148, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7148, "unique_src_ips": 1}, "timestamp": 1776923483}
+{"ip": "192.168.1.200", "rate": 7134, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7134, "unique_src_ips": 1}, "timestamp": 1776923484}
+{"ip": "192.168.1.200", "rate": 7015, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7015, "unique_src_ips": 1}, "timestamp": 1776923485}
+{"ip": "192.168.1.200", "rate": 7048, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7048, "unique_src_ips": 1}, "timestamp": 1776923486}
+{"ip": "192.168.1.200", "rate": 7375, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7375, "unique_src_ips": 1}, "timestamp": 1776923487}
+{"ip": "192.168.1.200", "rate": 7469, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7469, "unique_src_ips": 1}, "timestamp": 1776923488}
+{"ip": "192.168.1.200", "rate": 7315, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7315, "unique_src_ips": 1}, "timestamp": 1776923489}
+{"ip": "192.168.1.200", "rate": 7197, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7197, "unique_src_ips": 1}, "timestamp": 1776923490}
+{"ip": "192.168.1.200", "rate": 7396, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7396, "unique_src_ips": 1}, "timestamp": 1776923491}
+{"ip": "192.168.1.200", "rate": 7161, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7161, "unique_src_ips": 1}, "timestamp": 1776923492}
+{"ip": "192.168.1.200", "rate": 7277, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7277, "unique_src_ips": 1}, "timestamp": 1776923493}
+{"ip": "192.168.1.200", "rate": 7385, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7385, "unique_src_ips": 1}, "timestamp": 1776923494}
+{"ip": "192.168.1.200", "rate": 7358, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7358, "unique_src_ips": 1}, "timestamp": 1776923495}
+{"ip": "192.168.1.200", "rate": 7365, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7365, "unique_src_ips": 1}, "timestamp": 1776923496}
+{"ip": "192.168.1.200", "rate": 7389, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7389, "unique_src_ips": 1}, "timestamp": 1776923497}
+{"ip": "192.168.1.200", "rate": 7535, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7535, "unique_src_ips": 1}, "timestamp": 1776923498}
+{"ip": "192.168.1.200", "rate": 7867, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7867, "unique_src_ips": 1}, "timestamp": 1776923499}
+{"ip": "192.168.1.200", "rate": 8116, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8116, "unique_src_ips": 1}, "timestamp": 1776923500}
+{"ip": "192.168.1.200", "rate": 8068, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8068, "unique_src_ips": 1}, "timestamp": 1776923501}
+{"ip": "192.168.1.200", "rate": 8309, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8309, "unique_src_ips": 1}, "timestamp": 1776923502}
+{"ip": "192.168.1.200", "rate": 8155, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8155, "unique_src_ips": 1}, "timestamp": 1776923503}
+{"ip": "192.168.1.200", "rate": 8023, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8023, "unique_src_ips": 1}, "timestamp": 1776923504}
+{"ip": "192.168.1.200", "rate": 8274, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8274, "unique_src_ips": 1}, "timestamp": 1776923505}
+{"ip": "192.168.1.200", "rate": 8076, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8076, "unique_src_ips": 1}, "timestamp": 1776923506}
+{"ip": "192.168.1.200", "rate": 7979, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7979, "unique_src_ips": 1}, "timestamp": 1776923507}
+{"ip": "192.168.1.200", "rate": 8061, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8061, "unique_src_ips": 1}, "timestamp": 1776923508}
+{"ip": "192.168.1.200", "rate": 7921, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7921, "unique_src_ips": 1}, "timestamp": 1776923509}
+{"ip": "192.168.1.200", "rate": 8004, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8004, "unique_src_ips": 1}, "timestamp": 1776923510}
+{"ip": "192.168.1.200", "rate": 8118, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8118, "unique_src_ips": 1}, "timestamp": 1776923511}
+{"ip": "192.168.1.200", "rate": 8120, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8120, "unique_src_ips": 1}, "timestamp": 1776923512}
+{"ip": "192.168.1.200", "rate": 8487, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8487, "unique_src_ips": 1}, "timestamp": 1776923513}
+{"ip": "192.168.1.200", "rate": 8716, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8716, "unique_src_ips": 1}, "timestamp": 1776923514}
+{"ip": "192.168.1.200", "rate": 8971, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8971, "unique_src_ips": 1}, "timestamp": 1776923515}
+{"ip": "192.168.1.200", "rate": 9325, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 9325, "unique_src_ips": 1}, "timestamp": 1776923516}
+{"ip": "192.168.1.200", "rate": 9264, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 9264, "unique_src_ips": 1}, "timestamp": 1776923517}
+{"ip": "192.168.1.200", "rate": 9276, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 9276, "unique_src_ips": 1}, "timestamp": 1776923518}
+{"ip": "192.168.1.200", "rate": 9469, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 9469, "unique_src_ips": 1}, "timestamp": 1776923519}
+{"ip": "192.168.1.200", "rate": 9413, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 9413, "unique_src_ips": 1}, "timestamp": 1776923520}
+{"ip": "192.168.1.200", "rate": 9322, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 9322, "unique_src_ips": 1}, "timestamp": 1776923521}
+{"ip": "192.168.1.200", "rate": 9477, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 9477, "unique_src_ips": 1}, "timestamp": 1776923522}
+{"ip": "192.168.1.200", "rate": 9423, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 9423, "unique_src_ips": 1}, "timestamp": 1776923523}
+{"ip": "192.168.1.200", "rate": 9400, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 9400, "unique_src_ips": 1}, "timestamp": 1776923524}
+{"ip": "192.168.1.200", "rate": 9220, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 9220, "unique_src_ips": 1}, "timestamp": 1776923525}
+{"ip": "192.168.1.200", "rate": 8961, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8961, "unique_src_ips": 1}, "timestamp": 1776923526}
+{"ip": "192.168.1.200", "rate": 9090, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 9090, "unique_src_ips": 1}, "timestamp": 1776923527}
+{"ip": "192.168.1.200", "rate": 9230, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 9230, "unique_src_ips": 1}, "timestamp": 1776923528}
+{"ip": "192.168.1.200", "rate": 9184, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 9184, "unique_src_ips": 1}, "timestamp": 1776923529}
+{"ip": "192.168.1.200", "rate": 8983, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8983, "unique_src_ips": 1}, "timestamp": 1776923530}
+{"ip": "192.168.1.200", "rate": 8905, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8905, "unique_src_ips": 1}, "timestamp": 1776923531}
+{"ip": "192.168.1.200", "rate": 8470, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8470, "unique_src_ips": 1}, "timestamp": 1776923532}
+{"ip": "192.168.1.200", "rate": 8296, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 8296, "unique_src_ips": 1}, "timestamp": 1776923533}
+{"ip": "192.168.1.200", "rate": 7840, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7840, "unique_src_ips": 1}, "timestamp": 1776923534}
+{"ip": "192.168.1.200", "rate": 7465, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7465, "unique_src_ips": 1}, "timestamp": 1776923535}
+{"ip": "192.168.1.200", "rate": 7396, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7396, "unique_src_ips": 1}, "timestamp": 1776923536}
+{"ip": "192.168.1.200", "rate": 7162, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7162, "unique_src_ips": 1}, "timestamp": 1776923537}
+{"ip": "192.168.1.200", "rate": 7071, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7071, "unique_src_ips": 1}, "timestamp": 1776923538}
+{"ip": "192.168.1.200", "rate": 6866, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 6866, "unique_src_ips": 1}, "timestamp": 1776923539}
+{"ip": "192.168.1.200", "rate": 7074, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7074, "unique_src_ips": 1}, "timestamp": 1776923540}
+{"ip": "192.168.1.200", "rate": 7102, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7102, "unique_src_ips": 1}, "timestamp": 1776923541}
+{"ip": "192.168.1.200", "rate": 7284, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7284, "unique_src_ips": 1}, "timestamp": 1776923542}
+{"ip": "192.168.1.200", "rate": 7443, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7443, "unique_src_ips": 1}, "timestamp": 1776923543}
+{"ip": "192.168.1.200", "rate": 7629, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7629, "unique_src_ips": 1}, "timestamp": 1776923544}
+{"ip": "192.168.1.200", "rate": 7756, "attack": true, "type": "Behavioral", "ml": false, "features": {"packet_rate": 7756, "unique_src_ips": 1}, "timestamp": 1776923545}
+{"ip": "192.168.10.10", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776925275}
+{"ip": "192.168.10.20", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776925275}
+{"ip": "192.168.10.10", "rate": 1.0, "attack": false, "timestamp": 1776925653}
+{"ip": "192.168.10.20", "rate": 1.0, "attack": false, "timestamp": 1776925653}
+{"ip": "192.168.10.10", "rate": 1.0, "attack": false, "timestamp": 1776925922}
+{"ip": "192.168.10.20", "rate": 1.0, "attack": false, "timestamp": 1776925922}
+{"ip": "192.168.1.200", "rate": 1.0, "attack": false, "timestamp": 1776926021}
+{"ip": "192.168.1.200", "rate": 3294.0, "attack": true, "timestamp": 1776926023}
+{"ip": "192.168.1.200", "rate": 3295.0, "attack": true, "timestamp": 1776926028}
+{"ip": "192.168.1.200", "rate": 4679.0, "attack": true, "timestamp": 1776926030}
+{"ip": "192.168.1.200", "rate": 3819.0, "attack": true, "timestamp": 1776926032}
+{"ip": "192.168.1.200", "rate": 3733.0, "attack": true, "timestamp": 1776926034}
+{"ip": "192.168.1.200", "rate": 4726.0, "attack": true, "timestamp": 1776926036}
+{"ip": "192.168.1.200", "rate": 5465.0, "attack": true, "timestamp": 1776926038}
+{"ip": "192.168.1.200", "rate": 4922.0, "attack": true, "timestamp": 1776926040}
+{"ip": "192.168.1.200", "rate": 4589.0, "attack": true, "timestamp": 1776926042}
+{"ip": "192.168.1.200", "rate": 4183.0, "attack": true, "timestamp": 1776926044}
+{"ip": "192.168.1.200", "rate": 4233.0, "attack": true, "timestamp": 1776926046}
+{"ip": "192.168.1.200", "rate": 4427.0, "attack": true, "timestamp": 1776926048}
+{"ip": "192.168.1.200", "rate": 4353.0, "attack": true, "timestamp": 1776926050}
+{"ip": "192.168.1.200", "rate": 4344.0, "attack": true, "timestamp": 1776926052}
+{"ip": "192.168.1.200", "rate": 4207.0, "attack": true, "timestamp": 1776926054}
+{"ip": "192.168.1.200", "rate": 4158.0, "attack": true, "timestamp": 1776926056}
+{"ip": "192.168.1.200", "rate": 4264.0, "attack": true, "timestamp": 1776926058}
+{"ip": "192.168.1.200", "rate": 4424.0, "attack": true, "timestamp": 1776926060}
+{"ip": "192.168.1.200", "rate": 4473.0, "attack": true, "timestamp": 1776926062}
+{"ip": "192.168.1.200", "rate": 4532.0, "attack": true, "timestamp": 1776926064}
+{"ip": "192.168.1.200", "rate": 4183.0, "attack": true, "timestamp": 1776926066}
+{"ip": "192.168.1.200", "rate": 4379.0, "attack": true, "timestamp": 1776926068}
+{"ip": "192.168.1.200", "rate": 4675.0, "attack": true, "timestamp": 1776926070}
+{"ip": "192.168.1.200", "rate": 4747.0, "attack": true, "timestamp": 1776926072}
+{"ip": "192.168.1.200", "rate": 4959.0, "attack": true, "timestamp": 1776926074}
+{"ip": "192.168.1.200", "rate": 5289.0, "attack": true, "timestamp": 1776926076}
+{"ip": "192.168.1.200", "rate": 5030.0, "attack": true, "timestamp": 1776926078}
+{"ip": "192.168.1.200", "rate": 4995.0, "attack": true, "timestamp": 1776926080}
+{"ip": "192.168.1.200", "rate": 5176.0, "attack": true, "timestamp": 1776926082}
+{"ip": "192.168.1.200", "rate": 4960.0, "attack": true, "timestamp": 1776926084}
+{"ip": "192.168.1.200", "rate": 4842.0, "attack": true, "timestamp": 1776926086}
+{"ip": "192.168.1.200", "rate": 4794.0, "attack": true, "timestamp": 1776926088}
+{"ip": "192.168.1.200", "rate": 4531.0, "attack": true, "timestamp": 1776926090}
+{"ip": "192.168.1.200", "rate": 4321.0, "attack": true, "timestamp": 1776926092}
+{"ip": "192.168.1.200", "rate": 4555.0, "attack": true, "timestamp": 1776926094}
+{"ip": "192.168.1.200", "rate": 4579.0, "attack": true, "timestamp": 1776926096}
+{"ip": "192.168.1.200", "rate": 4585.0, "attack": true, "timestamp": 1776926098}
+{"ip": "192.168.1.200", "rate": 4676.0, "attack": true, "timestamp": 1776926100}
+{"ip": "192.168.1.200", "rate": 4905.0, "attack": true, "timestamp": 1776926102}
+{"ip": "192.168.1.200", "rate": 5004.0, "attack": true, "timestamp": 1776926104}
+{"ip": "192.168.1.200", "rate": 5033.0, "attack": true, "timestamp": 1776926106}
+{"ip": "192.168.1.200", "rate": 4737.0, "attack": true, "timestamp": 1776926108}
+{"ip": "192.168.1.200", "rate": 4466.0, "attack": true, "timestamp": 1776926110}
+{"ip": "192.168.1.200", "rate": 4161.0, "attack": true, "timestamp": 1776926112}
+{"ip": "192.168.1.200", "rate": 4098.0, "attack": true, "timestamp": 1776926114}
+{"ip": "192.168.1.200", "rate": 4274.0, "attack": true, "timestamp": 1776926116}
+{"ip": "192.168.10.10", "rate": 1.0, "attack": false, "timestamp": 1776926117}
+{"ip": "192.168.10.20", "rate": 1.0, "attack": false, "timestamp": 1776926117}
+{"ip": "192.168.1.200", "rate": 4562.0, "attack": true, "timestamp": 1776926118}
+{"ip": "192.168.1.200", "rate": 4649.0, "attack": true, "timestamp": 1776926120}
+{"ip": "192.168.1.200", "rate": 4470.0, "attack": true, "timestamp": 1776926122}
+{"ip": "192.168.1.200", "rate": 4211.0, "attack": true, "timestamp": 1776926124}
+{"ip": "192.168.1.200", "rate": 4120.0, "attack": true, "timestamp": 1776926126}
+{"ip": "192.168.1.200", "rate": 4257.0, "attack": true, "timestamp": 1776926128}
+{"ip": "192.168.1.200", "rate": 4283.0, "attack": true, "timestamp": 1776926130}
+{"ip": "192.168.1.200", "rate": 4611.0, "attack": true, "timestamp": 1776926132}
+{"ip": "192.168.1.200", "rate": 4631.0, "attack": true, "timestamp": 1776926134}
+{"ip": "192.168.1.200", "rate": 4441.0, "attack": true, "timestamp": 1776926136}
+{"ip": "192.168.1.200", "rate": 4216.0, "attack": true, "timestamp": 1776926138}
+{"ip": "192.168.1.200", "rate": 4262.0, "attack": true, "timestamp": 1776926140}
+{"ip": "192.168.1.200", "rate": 4403.0, "attack": true, "timestamp": 1776926142}
+{"ip": "192.168.1.200", "rate": 4594.0, "attack": true, "timestamp": 1776926144}
+{"ip": "192.168.1.200", "rate": 4884.0, "attack": true, "timestamp": 1776926146}
+{"ip": "192.168.1.200", "rate": 4897.0, "attack": true, "timestamp": 1776926148}
+{"ip": "192.168.1.200", "rate": 4754.0, "attack": true, "timestamp": 1776926150}
+{"ip": "192.168.1.200", "rate": 4387.0, "attack": true, "timestamp": 1776926152}
+{"ip": "192.168.1.200", "rate": 3898.0, "attack": true, "timestamp": 1776926154}
+{"ip": "192.168.1.200", "rate": 3653.0, "attack": true, "timestamp": 1776926156}
+{"ip": "192.168.1.200", "rate": 3718.0, "attack": true, "timestamp": 1776926158}
+{"ip": "192.168.1.200", "rate": 3985.0, "attack": true, "timestamp": 1776926160}
+{"ip": "192.168.1.200", "rate": 4228.0, "attack": true, "timestamp": 1776926162}
+{"ip": "192.168.1.200", "rate": 4518.0, "attack": true, "timestamp": 1776926164}
+{"ip": "192.168.1.200", "rate": 4392.0, "attack": true, "timestamp": 1776926166}
+{"ip": "192.168.1.200", "rate": 4293.0, "attack": true, "timestamp": 1776926168}
+{"ip": "192.168.1.200", "rate": 4169.0, "attack": true, "timestamp": 1776926170}
+{"ip": "192.168.1.200", "rate": 4357.0, "attack": true, "timestamp": 1776926172}
+{"ip": "192.168.1.200", "rate": 4619.0, "attack": true, "timestamp": 1776926174}
+{"ip": "192.168.1.200", "rate": 4751.0, "attack": true, "timestamp": 1776926176}
+{"ip": "192.168.1.200", "rate": 4812.0, "attack": true, "timestamp": 1776926178}
+{"ip": "192.168.1.200", "rate": 4777.0, "attack": true, "timestamp": 1776926180}
+{"ip": "192.168.1.200", "rate": 4477.0, "attack": true, "timestamp": 1776926182}
+{"ip": "192.168.1.200", "rate": 4374.0, "attack": true, "timestamp": 1776926184}
+{"ip": "192.168.1.200", "rate": 4393.0, "attack": true, "timestamp": 1776926186}
+{"ip": "192.168.1.200", "rate": 4377.0, "attack": true, "timestamp": 1776926188}
+{"ip": "192.168.1.200", "rate": 4434.0, "attack": true, "timestamp": 1776926190}
+{"ip": "192.168.1.200", "rate": 4561.0, "attack": true, "timestamp": 1776926192}
+{"ip": "192.168.1.200", "rate": 4416.0, "attack": true, "timestamp": 1776926194}
+{"ip": "192.168.1.200", "rate": 4510.0, "attack": true, "timestamp": 1776926196}
+{"ip": "192.168.1.200", "rate": 4640.0, "attack": true, "timestamp": 1776926198}
+{"ip": "192.168.1.200", "rate": 4478.0, "attack": true, "timestamp": 1776926200}
+{"ip": "192.168.1.200", "rate": 4299.0, "attack": true, "timestamp": 1776926202}
+{"ip": "192.168.1.200", "rate": 4340.0, "attack": true, "timestamp": 1776926204}
+{"ip": "192.168.1.200", "rate": 4376.0, "attack": true, "timestamp": 1776926206}
+{"ip": "192.168.1.200", "rate": 4394.0, "attack": true, "timestamp": 1776926208}
+{"ip": "192.168.1.200", "rate": 4400.0, "attack": true, "timestamp": 1776926210}
+{"ip": "192.168.1.200", "rate": 4439.0, "attack": true, "timestamp": 1776926212}
+{"ip": "192.168.1.200", "rate": 4614.0, "attack": true, "timestamp": 1776926214}
+{"ip": "192.168.1.200", "rate": 4776.0, "attack": true, "timestamp": 1776926216}
+{"ip": "192.168.1.200", "rate": 4725.0, "attack": true, "timestamp": 1776926218}
+{"ip": "192.168.1.200", "rate": 4873.0, "attack": true, "timestamp": 1776926220}
+{"ip": "192.168.1.200", "rate": 4911.0, "attack": true, "timestamp": 1776926222}
+{"ip": "192.168.1.200", "rate": 4769.0, "attack": true, "timestamp": 1776926224}
+{"ip": "192.168.1.200", "rate": 4382.0, "attack": true, "timestamp": 1776926226}
+{"ip": "192.168.1.200", "rate": 4503.0, "attack": true, "timestamp": 1776926228}
+{"ip": "192.168.1.200", "rate": 4445.0, "attack": true, "timestamp": 1776926230}
+{"ip": "192.168.1.200", "rate": 4424.0, "attack": true, "timestamp": 1776926232}
+{"ip": "192.168.1.200", "rate": 4400.0, "attack": true, "timestamp": 1776926234}
+{"ip": "192.168.1.200", "rate": 4503.0, "attack": true, "timestamp": 1776926236}
+{"ip": "192.168.1.200", "rate": 4474.0, "attack": true, "timestamp": 1776926238}
+{"ip": "192.168.1.200", "rate": 4480.0, "attack": true, "timestamp": 1776926240}
+{"ip": "192.168.1.200", "rate": 4545.0, "attack": true, "timestamp": 1776926242}
+{"ip": "192.168.1.200", "rate": 4504.0, "attack": true, "timestamp": 1776926244}
+{"ip": "192.168.1.200", "rate": 4439.0, "attack": true, "timestamp": 1776926246}
+{"ip": "192.168.1.200", "rate": 4184.0, "attack": true, "timestamp": 1776926248}
+{"ip": "192.168.1.200", "rate": 4153.0, "attack": true, "timestamp": 1776926250}
+{"ip": "192.168.1.200", "rate": 4241.0, "attack": true, "timestamp": 1776926252}
+{"ip": "192.168.1.200", "rate": 4278.0, "attack": true, "timestamp": 1776926254}
+{"ip": "192.168.1.200", "rate": 4315.0, "attack": true, "timestamp": 1776926256}
+{"ip": "192.168.1.200", "rate": 4291.0, "attack": true, "timestamp": 1776926258}
+{"ip": "192.168.1.200", "rate": 4336.0, "attack": true, "timestamp": 1776926260}
+{"ip": "192.168.1.200", "rate": 3953.0, "attack": true, "timestamp": 1776926262}
+{"ip": "192.168.1.200", "rate": 4001.0, "attack": true, "timestamp": 1776926264}
+{"ip": "192.168.1.200", "rate": 4205.0, "attack": true, "timestamp": 1776926266}
+{"ip": "192.168.1.200", "rate": 4283.0, "attack": true, "timestamp": 1776926268}
+{"ip": "192.168.1.200", "rate": 4235.0, "attack": true, "timestamp": 1776926270}
+{"ip": "192.168.1.200", "rate": 4587.0, "attack": true, "timestamp": 1776926272}
+{"ip": "192.168.1.200", "rate": 4561.0, "attack": true, "timestamp": 1776926274}
+{"ip": "192.168.1.200", "rate": 4354.0, "attack": true, "timestamp": 1776926276}
+{"ip": "192.168.1.200", "rate": 4388.0, "attack": true, "timestamp": 1776926278}
+{"ip": "192.168.1.200", "rate": 4331.0, "attack": true, "timestamp": 1776926280}
+{"ip": "192.168.1.200", "rate": 4185.0, "attack": true, "timestamp": 1776926282}
+{"ip": "192.168.1.200", "rate": 4181.0, "attack": true, "timestamp": 1776926284}
+{"ip": "192.168.1.200", "rate": 4229.0, "attack": true, "timestamp": 1776926286}
+{"ip": "192.168.1.200", "rate": 4426.0, "attack": true, "timestamp": 1776926288}
+{"ip": "192.168.1.200", "rate": 4662.0, "attack": true, "timestamp": 1776926290}
+{"ip": "192.168.1.200", "rate": 4669.0, "attack": true, "timestamp": 1776926292}
+{"ip": "192.168.1.200", "rate": 4616.0, "attack": true, "timestamp": 1776926294}
+{"ip": "192.168.1.200", "rate": 4628.0, "attack": true, "timestamp": 1776926296}
+{"ip": "192.168.1.200", "rate": 4302.0, "attack": true, "timestamp": 1776926298}
+{"ip": "192.168.1.200", "rate": 4480.0, "attack": true, "timestamp": 1776926300}
+{"ip": "192.168.1.200", "rate": 4812.0, "attack": true, "timestamp": 1776926302}
+{"ip": "192.168.1.200", "rate": 5132.0, "attack": true, "timestamp": 1776926304}
+{"ip": "192.168.1.200", "rate": 5057.0, "attack": true, "timestamp": 1776926306}
+{"ip": "192.168.1.200", "rate": 5097.0, "attack": true, "timestamp": 1776926308}
+{"ip": "192.168.1.200", "rate": 4873.0, "attack": true, "timestamp": 1776926310}
+{"ip": "192.168.1.200", "rate": 4651.0, "attack": true, "timestamp": 1776926312}
+{"ip": "192.168.1.200", "rate": 4473.0, "attack": true, "timestamp": 1776926314}
+{"ip": "192.168.1.200", "rate": 4584.0, "attack": true, "timestamp": 1776926316}
+{"ip": "192.168.1.200", "rate": 4573.0, "attack": true, "timestamp": 1776926318}
+{"ip": "192.168.1.200", "rate": 4445.0, "attack": true, "timestamp": 1776926320}
+{"ip": "192.168.1.200", "rate": 4622.0, "attack": true, "timestamp": 1776926322}
+{"ip": "192.168.1.200", "rate": 4582.0, "attack": true, "timestamp": 1776926324}
+{"ip": "192.168.1.200", "rate": 4554.0, "attack": true, "timestamp": 1776926326}
+{"ip": "192.168.1.200", "rate": 4617.0, "attack": true, "timestamp": 1776926328}
+{"ip": "192.168.1.200", "rate": 4673.0, "attack": true, "timestamp": 1776926330}
+{"ip": "192.168.1.200", "rate": 4329.0, "attack": true, "timestamp": 1776926332}
+{"ip": "192.168.1.200", "rate": 4213.0, "attack": true, "timestamp": 1776926334}
+{"ip": "192.168.1.200", "rate": 4115.0, "attack": true, "timestamp": 1776926336}
+{"ip": "192.168.1.200", "rate": 4065.0, "attack": true, "timestamp": 1776926338}
+{"ip": "192.168.1.200", "rate": 4089.0, "attack": true, "timestamp": 1776926340}
+{"ip": "192.168.1.200", "rate": 4260.0, "attack": true, "timestamp": 1776926342}
+{"ip": "192.168.1.200", "rate": 4285.0, "attack": true, "timestamp": 1776926344}
+{"ip": "192.168.1.200", "rate": 4540.0, "attack": true, "timestamp": 1776926346}
+{"ip": "192.168.1.200", "rate": 4467.0, "attack": true, "timestamp": 1776926348}
+{"ip": "192.168.1.200", "rate": 4489.0, "attack": true, "timestamp": 1776926350}
+{"ip": "192.168.1.200", "rate": 4477.0, "attack": true, "timestamp": 1776926352}
+{"ip": "192.168.1.200", "rate": 4659.0, "attack": true, "timestamp": 1776926354}
+{"ip": "192.168.1.200", "rate": 4466.0, "attack": true, "timestamp": 1776926356}
+{"ip": "192.168.1.200", "rate": 4599.0, "attack": true, "timestamp": 1776926358}
+{"ip": "192.168.1.200", "rate": 4669.0, "attack": true, "timestamp": 1776926360}
+{"ip": "192.168.10.10", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776926576}
+{"ip": "192.168.10.20", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776926576}
+{"ip": "192.168.1.200", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776926602}
+{"ip": "192.168.1.200", "rate": 117.0, "attack": true, "type": "Suspicious", "timestamp": 1776926604}
+{"ip": "192.168.1.200", "rate": 228.0, "attack": true, "type": "DoS", "timestamp": 1776926606}
+{"ip": "192.168.1.200", "rate": 309.0, "attack": true, "type": "DoS", "timestamp": 1776926608}
+{"ip": "192.168.1.200", "rate": 422.0, "attack": true, "type": "DoS", "timestamp": 1776926610}
+{"ip": "192.168.1.200", "rate": 523.0, "attack": true, "type": "DoS", "timestamp": 1776926612}
+{"ip": "192.168.1.200", "rate": 619.0, "attack": true, "type": "DoS", "timestamp": 1776926614}
+{"ip": "192.168.1.200", "rate": 726.0, "attack": true, "type": "DoS", "timestamp": 1776926616}
+{"ip": "192.168.1.200", "rate": 832.0, "attack": true, "type": "DoS", "timestamp": 1776926618}
+{"ip": "192.168.1.200", "rate": 942.0, "attack": true, "type": "DoS", "timestamp": 1776926620}
+{"ip": "192.168.1.200", "rate": 1052.0, "attack": true, "type": "DoS", "timestamp": 1776926622}
+{"ip": "192.168.1.200", "rate": 1166.0, "attack": true, "type": "DoS", "timestamp": 1776926624}
+{"ip": "192.168.1.200", "rate": 1271.0, "attack": true, "type": "DoS", "timestamp": 1776926626}
+{"ip": "192.168.1.200", "rate": 1363.0, "attack": true, "type": "DoS", "timestamp": 1776926628}
+{"ip": "192.168.1.200", "rate": 1470.0, "attack": true, "type": "DoS", "timestamp": 1776926630}
+{"ip": "192.168.1.200", "rate": 1580.0, "attack": true, "type": "DoS", "timestamp": 1776926632}
+{"ip": "192.168.1.200", "rate": 1691.0, "attack": true, "type": "DoS", "timestamp": 1776926634}
+{"ip": "192.168.1.200", "rate": 1788.0, "attack": true, "type": "DoS", "timestamp": 1776926636}
+{"ip": "192.168.1.200", "rate": 1903.0, "attack": true, "type": "DoS", "timestamp": 1776926638}
+{"ip": "192.168.1.200", "rate": 2011.0, "attack": true, "type": "DoS", "timestamp": 1776926640}
+{"ip": "192.168.1.200", "rate": 2081.0, "attack": true, "type": "DoS", "timestamp": 1776926642}
+{"ip": "192.168.1.200", "rate": 2193.0, "attack": true, "type": "DoS", "timestamp": 1776926644}
+{"ip": "192.168.1.200", "rate": 2308.0, "attack": true, "type": "DoS", "timestamp": 1776926646}
+{"ip": "192.168.1.200", "rate": 2409.0, "attack": true, "type": "DoS", "timestamp": 1776926648}
+{"ip": "192.168.1.200", "rate": 2517.0, "attack": true, "type": "DoS", "timestamp": 1776926650}
+{"ip": "192.168.1.200", "rate": 2630.0, "attack": true, "type": "DoS", "timestamp": 1776926652}
+{"ip": "192.168.1.200", "rate": 2742.0, "attack": true, "type": "DoS", "timestamp": 1776926654}
+{"ip": "192.168.1.200", "rate": 2848.0, "attack": true, "type": "DoS", "timestamp": 1776926656}
+{"ip": "192.168.1.200", "rate": 2954.0, "attack": true, "type": "DoS", "timestamp": 1776926658}
+{"ip": "192.168.1.200", "rate": 3075.0, "attack": true, "type": "DoS", "timestamp": 1776926660}
+{"ip": "192.168.1.200", "rate": 3188.0, "attack": true, "type": "DoS", "timestamp": 1776926662}
+{"ip": "192.168.1.200", "rate": 3309.0, "attack": true, "type": "DoS", "timestamp": 1776926664}
+{"ip": "192.168.1.200", "rate": 3416.0, "attack": true, "type": "DoS", "timestamp": 1776926666}
+{"ip": "192.168.1.200", "rate": 3510.0, "attack": true, "type": "DoS", "timestamp": 1776926668}
+{"ip": "192.168.1.200", "rate": 3609.0, "attack": true, "type": "DoS", "timestamp": 1776926670}
+{"ip": "192.168.1.200", "rate": 3722.0, "attack": true, "type": "DoS", "timestamp": 1776926672}
+{"ip": "192.168.1.200", "rate": 3818.0, "attack": true, "type": "DoS", "timestamp": 1776926674}
+{"ip": "192.168.1.200", "rate": 3925.0, "attack": true, "type": "DoS", "timestamp": 1776926676}
+{"ip": "192.168.1.200", "rate": 4037.0, "attack": true, "type": "DoS", "timestamp": 1776926678}
+{"ip": "192.168.1.200", "rate": 4135.0, "attack": true, "type": "DoS", "timestamp": 1776926680}
+{"ip": "192.168.1.200", "rate": 4225.0, "attack": true, "type": "DoS", "timestamp": 1776926682}
+{"ip": "192.168.1.200", "rate": 4319.0, "attack": true, "type": "DoS", "timestamp": 1776926684}
+{"ip": "192.168.1.200", "rate": 4422.0, "attack": true, "type": "DoS", "timestamp": 1776926686}
+{"ip": "192.168.1.200", "rate": 4510.0, "attack": true, "type": "DoS", "timestamp": 1776926689}
+{"ip": "192.168.1.200", "rate": 4604.0, "attack": true, "type": "DoS", "timestamp": 1776926691}
+{"ip": "192.168.1.200", "rate": 4714.0, "attack": true, "type": "DoS", "timestamp": 1776926693}
+{"ip": "192.168.1.200", "rate": 4825.0, "attack": true, "type": "DoS", "timestamp": 1776926695}
+{"ip": "192.168.1.200", "rate": 4943.0, "attack": true, "type": "DoS", "timestamp": 1776926697}
+{"ip": "192.168.1.200", "rate": 5057.0, "attack": true, "type": "DoS", "timestamp": 1776926699}
+{"ip": "192.168.1.200", "rate": 5174.0, "attack": true, "type": "DoS", "timestamp": 1776926701}
+{"ip": "192.168.1.100", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776946935}
+{"ip": "192.168.1.100", "rate": 93.0, "attack": false, "type": "Normal", "timestamp": 1776946937}
+{"ip": "192.168.1.100", "rate": 177.0, "attack": true, "type": "Suspicious", "timestamp": 1776946939}
+{"ip": "192.168.1.100", "rate": 178.0, "attack": true, "type": "Suspicious", "timestamp": 1776946948}
+{"ip": "192.168.1.100", "rate": 244.0, "attack": true, "type": "DoS", "timestamp": 1776946950}
+{"ip": "192.168.1.100", "rate": 312.0, "attack": true, "type": "DoS", "timestamp": 1776946952}
+{"ip": "192.168.1.100", "rate": 391.0, "attack": true, "type": "DoS", "timestamp": 1776946955}
+{"ip": "192.168.1.100", "rate": 476.0, "attack": true, "type": "DoS", "timestamp": 1776946957}
+{"ip": "192.168.1.100", "rate": 554.0, "attack": true, "type": "DoS", "timestamp": 1776946959}
+{"ip": "192.168.1.100", "rate": 628.0, "attack": true, "type": "DoS", "timestamp": 1776946961}
+{"ip": "192.168.1.100", "rate": 715.0, "attack": true, "type": "DoS", "timestamp": 1776946963}
+{"ip": "192.168.1.100", "rate": 792.0, "attack": true, "type": "DoS", "timestamp": 1776946965}
+{"ip": "192.168.1.100", "rate": 868.0, "attack": true, "type": "DoS", "timestamp": 1776946967}
+{"ip": "192.168.1.100", "rate": 946.0, "attack": true, "type": "DoS", "timestamp": 1776946969}
+{"ip": "192.168.1.100", "rate": 1030.0, "attack": true, "type": "DoS", "timestamp": 1776946971}
+{"ip": "192.168.1.100", "rate": 1117.0, "attack": true, "type": "DoS", "timestamp": 1776946973}
+{"ip": "192.168.1.100", "rate": 1198.0, "attack": true, "type": "DoS", "timestamp": 1776946975}
+{"ip": "192.168.1.100", "rate": 1290.0, "attack": true, "type": "DoS", "timestamp": 1776946977}
+{"ip": "192.168.1.100", "rate": 1370.0, "attack": true, "type": "DoS", "timestamp": 1776946979}
+{"ip": "192.168.1.100", "rate": 1456.0, "attack": true, "type": "DoS", "timestamp": 1776946981}
+{"ip": "192.168.1.100", "rate": 1542.0, "attack": true, "type": "DoS", "timestamp": 1776946983}
+{"ip": "192.168.1.100", "rate": 1621.0, "attack": true, "type": "DoS", "timestamp": 1776946985}
+{"ip": "192.168.1.100", "rate": 1698.0, "attack": true, "type": "DoS", "timestamp": 1776946987}
+{"ip": "192.168.1.100", "rate": 1782.0, "attack": true, "type": "DoS", "timestamp": 1776946989}
+{"ip": "192.168.1.100", "rate": 1857.0, "attack": true, "type": "DoS", "timestamp": 1776946991}
+{"ip": "192.168.1.100", "rate": 1937.0, "attack": true, "type": "DoS", "timestamp": 1776946993}
+{"ip": "192.168.1.100", "rate": 2021.0, "attack": true, "type": "DoS", "timestamp": 1776946995}
+{"ip": "192.168.1.100", "rate": 2115.0, "attack": true, "type": "DoS", "timestamp": 1776946997}
+{"ip": "192.168.1.100", "rate": 2182.0, "attack": true, "type": "DoS", "timestamp": 1776946999}
+{"ip": "192.168.1.100", "rate": 2251.0, "attack": true, "type": "DoS", "timestamp": 1776947001}
+{"ip": "192.168.1.100", "rate": 2326.0, "attack": true, "type": "DoS", "timestamp": 1776947003}
+{"ip": "192.168.1.100", "rate": 2395.0, "attack": true, "type": "DoS", "timestamp": 1776947005}
+{"ip": "192.168.1.100", "rate": 2468.0, "attack": true, "type": "DoS", "timestamp": 1776947007}
+{"ip": "192.168.1.100", "rate": 2537.0, "attack": true, "type": "DoS", "timestamp": 1776947009}
+{"ip": "192.168.1.100", "rate": 2623.0, "attack": true, "type": "DoS", "timestamp": 1776947011}
+{"ip": "192.168.1.100", "rate": 2703.0, "attack": true, "type": "DoS", "timestamp": 1776947013}
+{"ip": "192.168.1.100", "rate": 2780.0, "attack": true, "type": "DoS", "timestamp": 1776947015}
+{"ip": "192.168.1.100", "rate": 2859.0, "attack": true, "type": "DoS", "timestamp": 1776947017}
+{"ip": "192.168.1.100", "rate": 2945.0, "attack": true, "type": "DoS", "timestamp": 1776947019}
+{"ip": "192.168.1.100", "rate": 3038.0, "attack": true, "type": "DoS", "timestamp": 1776947021}
+{"ip": "192.168.1.100", "rate": 3135.0, "attack": true, "type": "DoS", "timestamp": 1776947023}
+{"ip": "192.168.1.100", "rate": 3221.0, "attack": true, "type": "DoS", "timestamp": 1776947025}
+{"ip": "192.168.1.100", "rate": 3303.0, "attack": true, "type": "DoS", "timestamp": 1776947027}
+{"ip": "192.168.1.100", "rate": 3387.0, "attack": true, "type": "DoS", "timestamp": 1776947029}
+{"ip": "192.168.1.100", "rate": 3470.0, "attack": true, "type": "DoS", "timestamp": 1776947031}
+{"ip": "192.168.1.100", "rate": 3547.0, "attack": true, "type": "DoS", "timestamp": 1776947033}
+{"ip": "192.168.1.100", "rate": 3625.0, "attack": true, "type": "DoS", "timestamp": 1776947035}
+{"ip": "192.168.1.100", "rate": 3709.0, "attack": true, "type": "DoS", "timestamp": 1776947037}
+{"ip": "192.168.1.100", "rate": 3787.0, "attack": true, "type": "DoS", "timestamp": 1776947039}
+{"ip": "192.168.1.100", "rate": 3854.0, "attack": true, "type": "DoS", "timestamp": 1776947041}
+{"ip": "192.168.1.100", "rate": 3932.0, "attack": true, "type": "DoS", "timestamp": 1776947043}
+{"ip": "192.168.1.100", "rate": 4013.0, "attack": true, "type": "DoS", "timestamp": 1776947045}
+{"ip": "192.168.10.10", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776955050}
+{"ip": "192.168.10.20", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776955050}
+{"ip": "192.168.1.200", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776955125}
+{"ip": "192.168.10.10", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776955766}
+{"ip": "192.168.10.20", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776955766}
+{"ip": "192.168.1.200", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776955945}
+{"ip": "192.168.1.200", "rate": 73.0, "attack": false, "type": "Normal", "timestamp": 1776955947}
+{"ip": "192.168.1.200", "rate": 141.0, "attack": true, "type": "Suspicious", "timestamp": 1776955949}
+{"ip": "192.168.1.200", "rate": 1.0, "attack": true, "type": "Suspicious", "timestamp": 1776955954}
+{"ip": "192.168.1.200", "rate": 70.0, "attack": true, "type": "DoS", "timestamp": 1776955956}
+{"ip": "192.168.1.200", "rate": 145.0, "attack": true, "type": "DoS", "timestamp": 1776955958}
+{"ip": "192.168.1.200", "rate": 187.0, "attack": true, "type": "DoS", "timestamp": 1776955960}
+{"ip": "192.168.1.200", "rate": 192.0, "attack": true, "type": "DoS", "timestamp": 1776955962}
+{"ip": "192.168.1.200", "rate": 191.0, "attack": true, "type": "DoS", "timestamp": 1776955964}
+{"ip": "192.168.1.200", "rate": 178.0, "attack": true, "type": "DoS", "timestamp": 1776955966}
+{"ip": "192.168.1.200", "rate": 181.0, "attack": true, "type": "DoS", "timestamp": 1776955968}
+{"ip": "192.168.1.200", "rate": 166.0, "attack": true, "type": "DoS", "timestamp": 1776955970}
+{"ip": "192.168.1.200", "rate": 178.0, "attack": true, "type": "DoS", "timestamp": 1776955972}
+{"ip": "192.168.1.200", "rate": 170.0, "attack": true, "type": "DoS", "timestamp": 1776955974}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776955976}
+{"ip": "192.168.1.200", "rate": 178.0, "attack": true, "type": "DoS", "timestamp": 1776955978}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776955980}
+{"ip": "192.168.1.200", "rate": 179.0, "attack": true, "type": "DoS", "timestamp": 1776955982}
+{"ip": "192.168.1.200", "rate": 172.0, "attack": true, "type": "DoS", "timestamp": 1776955984}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776955986}
+{"ip": "192.168.1.200", "rate": 164.0, "attack": true, "type": "DoS", "timestamp": 1776955988}
+{"ip": "192.168.1.200", "rate": 172.0, "attack": true, "type": "DoS", "timestamp": 1776955990}
+{"ip": "192.168.1.200", "rate": 178.0, "attack": true, "type": "DoS", "timestamp": 1776955992}
+{"ip": "192.168.1.200", "rate": 177.0, "attack": true, "type": "DoS", "timestamp": 1776955994}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776955996}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776955998}
+{"ip": "192.168.1.200", "rate": 172.0, "attack": true, "type": "DoS", "timestamp": 1776956000}
+{"ip": "192.168.1.200", "rate": 181.0, "attack": true, "type": "DoS", "timestamp": 1776956002}
+{"ip": "192.168.1.200", "rate": 186.0, "attack": true, "type": "DoS", "timestamp": 1776956004}
+{"ip": "192.168.1.200", "rate": 203.0, "attack": true, "type": "DoS", "timestamp": 1776956006}
+{"ip": "192.168.1.200", "rate": 206.0, "attack": true, "type": "DoS", "timestamp": 1776956008}
+{"ip": "192.168.1.200", "rate": 199.0, "attack": true, "type": "DoS", "timestamp": 1776956010}
+{"ip": "192.168.1.200", "rate": 193.0, "attack": true, "type": "DoS", "timestamp": 1776956012}
+{"ip": "192.168.1.200", "rate": 189.0, "attack": true, "type": "DoS", "timestamp": 1776956014}
+{"ip": "192.168.1.200", "rate": 183.0, "attack": true, "type": "DoS", "timestamp": 1776956016}
+{"ip": "192.168.1.200", "rate": 182.0, "attack": true, "type": "DoS", "timestamp": 1776956018}
+{"ip": "192.168.1.200", "rate": 188.0, "attack": true, "type": "DoS", "timestamp": 1776956020}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776956022}
+{"ip": "192.168.1.200", "rate": 190.0, "attack": true, "type": "DoS", "timestamp": 1776956024}
+{"ip": "192.168.1.200", "rate": 192.0, "attack": true, "type": "DoS", "timestamp": 1776956026}
+{"ip": "192.168.1.200", "rate": 186.0, "attack": true, "type": "DoS", "timestamp": 1776956028}
+{"ip": "192.168.1.200", "rate": 189.0, "attack": true, "type": "DoS", "timestamp": 1776956030}
+{"ip": "192.168.1.200", "rate": 192.0, "attack": true, "type": "DoS", "timestamp": 1776956032}
+{"ip": "192.168.1.200", "rate": 190.0, "attack": true, "type": "DoS", "timestamp": 1776956034}
+{"ip": "192.168.1.200", "rate": 185.0, "attack": true, "type": "DoS", "timestamp": 1776956036}
+{"ip": "192.168.1.200", "rate": 178.0, "attack": true, "type": "DoS", "timestamp": 1776956038}
+{"ip": "192.168.1.200", "rate": 189.0, "attack": true, "type": "DoS", "timestamp": 1776956040}
+{"ip": "192.168.1.200", "rate": 180.0, "attack": true, "type": "DoS", "timestamp": 1776956042}
+{"ip": "192.168.1.200", "rate": 182.0, "attack": true, "type": "DoS", "timestamp": 1776956045}
+{"ip": "192.168.1.200", "rate": 189.0, "attack": true, "type": "DoS", "timestamp": 1776956047}
+{"ip": "192.168.1.200", "rate": 190.0, "attack": true, "type": "DoS", "timestamp": 1776956049}
+{"ip": "192.168.1.200", "rate": 189.0, "attack": true, "type": "DoS", "timestamp": 1776956051}
+{"ip": "192.168.1.200", "rate": 191.0, "attack": true, "type": "DoS", "timestamp": 1776956053}
+{"ip": "192.168.1.200", "rate": 185.0, "attack": true, "type": "DoS", "timestamp": 1776956055}
+{"ip": "192.168.1.200", "rate": 174.0, "attack": true, "type": "DoS", "timestamp": 1776956057}
+{"ip": "192.168.1.200", "rate": 169.0, "attack": true, "type": "DoS", "timestamp": 1776956059}
+{"ip": "192.168.1.200", "rate": 174.0, "attack": true, "type": "DoS", "timestamp": 1776956061}
+{"ip": "192.168.1.200", "rate": 178.0, "attack": true, "type": "DoS", "timestamp": 1776956063}
+{"ip": "192.168.1.200", "rate": 179.0, "attack": true, "type": "DoS", "timestamp": 1776956065}
+{"ip": "192.168.1.200", "rate": 184.0, "attack": true, "type": "DoS", "timestamp": 1776956067}
+{"ip": "192.168.1.200", "rate": 185.0, "attack": true, "type": "DoS", "timestamp": 1776956069}
+{"ip": "192.168.1.200", "rate": 187.0, "attack": true, "type": "DoS", "timestamp": 1776956071}
+{"ip": "192.168.1.200", "rate": 190.0, "attack": true, "type": "DoS", "timestamp": 1776956073}
+{"ip": "192.168.1.200", "rate": 184.0, "attack": true, "type": "DoS", "timestamp": 1776956075}
+{"ip": "192.168.1.200", "rate": 186.0, "attack": true, "type": "DoS", "timestamp": 1776956077}
+{"ip": "192.168.1.200", "rate": 192.0, "attack": true, "type": "DoS", "timestamp": 1776956079}
+{"ip": "192.168.1.200", "rate": 196.0, "attack": true, "type": "DoS", "timestamp": 1776956081}
+{"ip": "192.168.1.200", "rate": 198.0, "attack": true, "type": "DoS", "timestamp": 1776956083}
+{"ip": "192.168.1.200", "rate": 191.0, "attack": true, "type": "DoS", "timestamp": 1776956085}
+{"ip": "192.168.1.200", "rate": 184.0, "attack": true, "type": "DoS", "timestamp": 1776956087}
+{"ip": "192.168.1.200", "rate": 178.0, "attack": true, "type": "DoS", "timestamp": 1776956089}
+{"ip": "192.168.1.200", "rate": 190.0, "attack": true, "type": "DoS", "timestamp": 1776956091}
+{"ip": "192.168.1.200", "rate": 197.0, "attack": true, "type": "DoS", "timestamp": 1776956093}
+{"ip": "192.168.1.200", "rate": 205.0, "attack": true, "type": "DoS", "timestamp": 1776956095}
+{"ip": "192.168.1.200", "rate": 200.0, "attack": true, "type": "DoS", "timestamp": 1776956097}
+{"ip": "192.168.1.200", "rate": 201.0, "attack": true, "type": "DoS", "timestamp": 1776956099}
+{"ip": "192.168.1.200", "rate": 192.0, "attack": true, "type": "DoS", "timestamp": 1776956101}
+{"ip": "192.168.1.200", "rate": 183.0, "attack": true, "type": "DoS", "timestamp": 1776956103}
+{"ip": "192.168.1.200", "rate": 187.0, "attack": true, "type": "DoS", "timestamp": 1776956105}
+{"ip": "192.168.1.200", "rate": 194.0, "attack": true, "type": "DoS", "timestamp": 1776956107}
+{"ip": "192.168.1.200", "rate": 182.0, "attack": true, "type": "DoS", "timestamp": 1776956109}
+{"ip": "192.168.1.200", "rate": 180.0, "attack": true, "type": "DoS", "timestamp": 1776956111}
+{"ip": "192.168.1.200", "rate": 185.0, "attack": true, "type": "DoS", "timestamp": 1776956113}
+{"ip": "192.168.1.200", "rate": 196.0, "attack": true, "type": "DoS", "timestamp": 1776956115}
+{"ip": "192.168.1.200", "rate": 185.0, "attack": true, "type": "DoS", "timestamp": 1776956117}
+{"ip": "192.168.1.200", "rate": 190.0, "attack": true, "type": "DoS", "timestamp": 1776956119}
+{"ip": "192.168.1.200", "rate": 194.0, "attack": true, "type": "DoS", "timestamp": 1776956121}
+{"ip": "192.168.1.200", "rate": 199.0, "attack": true, "type": "DoS", "timestamp": 1776956123}
+{"ip": "192.168.1.200", "rate": 206.0, "attack": true, "type": "DoS", "timestamp": 1776956125}
+{"ip": "192.168.1.200", "rate": 194.0, "attack": true, "type": "DoS", "timestamp": 1776956127}
+{"ip": "192.168.1.200", "rate": 186.0, "attack": true, "type": "DoS", "timestamp": 1776956129}
+{"ip": "192.168.1.200", "rate": 179.0, "attack": true, "type": "DoS", "timestamp": 1776956131}
+{"ip": "192.168.1.200", "rate": 172.0, "attack": true, "type": "DoS", "timestamp": 1776956133}
+{"ip": "192.168.1.200", "rate": 171.0, "attack": true, "type": "DoS", "timestamp": 1776956135}
+{"ip": "192.168.1.200", "rate": 174.0, "attack": true, "type": "DoS", "timestamp": 1776956137}
+{"ip": "192.168.1.200", "rate": 189.0, "attack": true, "type": "DoS", "timestamp": 1776956139}
+{"ip": "192.168.1.200", "rate": 194.0, "attack": true, "type": "DoS", "timestamp": 1776956141}
+{"ip": "192.168.1.200", "rate": 181.0, "attack": true, "type": "DoS", "timestamp": 1776956143}
+{"ip": "192.168.1.200", "rate": 182.0, "attack": true, "type": "DoS", "timestamp": 1776956145}
+{"ip": "192.168.1.200", "rate": 171.0, "attack": true, "type": "DoS", "timestamp": 1776956147}
+{"ip": "192.168.1.200", "rate": 161.0, "attack": true, "type": "DoS", "timestamp": 1776956149}
+{"ip": "192.168.1.200", "rate": 152.0, "attack": true, "type": "DoS", "timestamp": 1776956151}
+{"ip": "192.168.1.200", "rate": 158.0, "attack": true, "type": "DoS", "timestamp": 1776956153}
+{"ip": "192.168.1.200", "rate": 157.0, "attack": true, "type": "DoS", "timestamp": 1776956155}
+{"ip": "192.168.1.200", "rate": 151.0, "attack": true, "type": "DoS", "timestamp": 1776956157}
+{"ip": "192.168.1.200", "rate": 151.0, "attack": true, "type": "DoS", "timestamp": 1776956159}
+{"ip": "192.168.1.200", "rate": 161.0, "attack": true, "type": "DoS", "timestamp": 1776956161}
+{"ip": "192.168.1.200", "rate": 164.0, "attack": true, "type": "DoS", "timestamp": 1776956163}
+{"ip": "192.168.1.200", "rate": 172.0, "attack": true, "type": "DoS", "timestamp": 1776956165}
+{"ip": "192.168.1.200", "rate": 168.0, "attack": true, "type": "DoS", "timestamp": 1776956167}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776956169}
+{"ip": "192.168.1.200", "rate": 169.0, "attack": true, "type": "DoS", "timestamp": 1776956171}
+{"ip": "192.168.1.200", "rate": 177.0, "attack": true, "type": "DoS", "timestamp": 1776956173}
+{"ip": "192.168.1.200", "rate": 178.0, "attack": true, "type": "DoS", "timestamp": 1776956175}
+{"ip": "192.168.1.200", "rate": 169.0, "attack": true, "type": "DoS", "timestamp": 1776956177}
+{"ip": "192.168.1.200", "rate": 177.0, "attack": true, "type": "DoS", "timestamp": 1776956179}
+{"ip": "192.168.1.200", "rate": 171.0, "attack": true, "type": "DoS", "timestamp": 1776956182}
+{"ip": "192.168.1.200", "rate": 175.0, "attack": true, "type": "DoS", "timestamp": 1776956184}
+{"ip": "192.168.1.200", "rate": 169.0, "attack": true, "type": "DoS", "timestamp": 1776956186}
+{"ip": "192.168.1.200", "rate": 185.0, "attack": true, "type": "DoS", "timestamp": 1776956188}
+{"ip": "192.168.1.200", "rate": 179.0, "attack": true, "type": "DoS", "timestamp": 1776956190}
+{"ip": "192.168.1.200", "rate": 184.0, "attack": true, "type": "DoS", "timestamp": 1776956192}
+{"ip": "192.168.1.200", "rate": 180.0, "attack": true, "type": "DoS", "timestamp": 1776956194}
+{"ip": "192.168.1.200", "rate": 181.0, "attack": true, "type": "DoS", "timestamp": 1776956196}
+{"ip": "192.168.1.200", "rate": 169.0, "attack": true, "type": "DoS", "timestamp": 1776956198}
+{"ip": "192.168.1.200", "rate": 161.0, "attack": true, "type": "DoS", "timestamp": 1776956200}
+{"ip": "192.168.1.200", "rate": 145.0, "attack": true, "type": "DoS", "timestamp": 1776956202}
+{"ip": "192.168.1.200", "rate": 158.0, "attack": true, "type": "DoS", "timestamp": 1776956204}
+{"ip": "192.168.1.200", "rate": 180.0, "attack": true, "type": "DoS", "timestamp": 1776956206}
+{"ip": "192.168.1.200", "rate": 178.0, "attack": true, "type": "DoS", "timestamp": 1776956208}
+{"ip": "192.168.1.200", "rate": 179.0, "attack": true, "type": "DoS", "timestamp": 1776956210}
+{"ip": "192.168.1.200", "rate": 193.0, "attack": true, "type": "DoS", "timestamp": 1776956212}
+{"ip": "192.168.1.200", "rate": 207.0, "attack": true, "type": "DoS", "timestamp": 1776956214}
+{"ip": "192.168.1.200", "rate": 205.0, "attack": true, "type": "DoS", "timestamp": 1776956216}
+{"ip": "192.168.1.200", "rate": 190.0, "attack": true, "type": "DoS", "timestamp": 1776956218}
+{"ip": "192.168.1.200", "rate": 187.0, "attack": true, "type": "DoS", "timestamp": 1776956220}
+{"ip": "192.168.1.200", "rate": 183.0, "attack": true, "type": "DoS", "timestamp": 1776956222}
+{"ip": "192.168.1.200", "rate": 178.0, "attack": true, "type": "DoS", "timestamp": 1776956224}
+{"ip": "192.168.1.200", "rate": 178.0, "attack": true, "type": "DoS", "timestamp": 1776956226}
+{"ip": "192.168.1.200", "rate": 183.0, "attack": true, "type": "DoS", "timestamp": 1776956228}
+{"ip": "192.168.1.200", "rate": 174.0, "attack": true, "type": "DoS", "timestamp": 1776956230}
+{"ip": "192.168.1.200", "rate": 160.0, "attack": true, "type": "DoS", "timestamp": 1776956232}
+{"ip": "192.168.1.200", "rate": 169.0, "attack": true, "type": "DoS", "timestamp": 1776956234}
+{"ip": "192.168.1.200", "rate": 173.0, "attack": true, "type": "DoS", "timestamp": 1776956236}
+{"ip": "192.168.1.200", "rate": 174.0, "attack": true, "type": "DoS", "timestamp": 1776956238}
+{"ip": "192.168.1.200", "rate": 175.0, "attack": true, "type": "DoS", "timestamp": 1776956240}
+{"ip": "192.168.1.200", "rate": 173.0, "attack": true, "type": "DoS", "timestamp": 1776956242}
+{"ip": "192.168.1.200", "rate": 175.0, "attack": true, "type": "DoS", "timestamp": 1776956244}
+{"ip": "192.168.1.200", "rate": 157.0, "attack": true, "type": "DoS", "timestamp": 1776956246}
+{"ip": "192.168.1.200", "rate": 153.0, "attack": true, "type": "DoS", "timestamp": 1776956248}
+{"ip": "192.168.1.200", "rate": 151.0, "attack": true, "type": "DoS", "timestamp": 1776956250}
+{"ip": "192.168.1.200", "rate": 147.0, "attack": true, "type": "DoS", "timestamp": 1776956252}
+{"ip": "192.168.1.200", "rate": 166.0, "attack": true, "type": "DoS", "timestamp": 1776956254}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776956256}
+{"ip": "192.168.1.200", "rate": 191.0, "attack": true, "type": "DoS", "timestamp": 1776956258}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776956260}
+{"ip": "192.168.1.200", "rate": 174.0, "attack": true, "type": "DoS", "timestamp": 1776956262}
+{"ip": "192.168.1.200", "rate": 177.0, "attack": true, "type": "DoS", "timestamp": 1776956264}
+{"ip": "192.168.1.200", "rate": 185.0, "attack": true, "type": "DoS", "timestamp": 1776956266}
+{"ip": "192.168.1.200", "rate": 192.0, "attack": true, "type": "DoS", "timestamp": 1776956268}
+{"ip": "192.168.1.200", "rate": 190.0, "attack": true, "type": "DoS", "timestamp": 1776956270}
+{"ip": "192.168.1.200", "rate": 177.0, "attack": true, "type": "DoS", "timestamp": 1776956272}
+{"ip": "192.168.1.200", "rate": 172.0, "attack": true, "type": "DoS", "timestamp": 1776956274}
+{"ip": "192.168.1.200", "rate": 175.0, "attack": true, "type": "DoS", "timestamp": 1776956276}
+{"ip": "192.168.1.200", "rate": 178.0, "attack": true, "type": "DoS", "timestamp": 1776956278}
+{"ip": "192.168.1.200", "rate": 185.0, "attack": true, "type": "DoS", "timestamp": 1776956280}
+{"ip": "192.168.1.200", "rate": 197.0, "attack": true, "type": "DoS", "timestamp": 1776956282}
+{"ip": "192.168.1.200", "rate": 201.0, "attack": true, "type": "DoS", "timestamp": 1776956284}
+{"ip": "192.168.1.200", "rate": 190.0, "attack": true, "type": "DoS", "timestamp": 1776956286}
+{"ip": "192.168.1.200", "rate": 172.0, "attack": true, "type": "DoS", "timestamp": 1776956288}
+{"ip": "192.168.1.200", "rate": 164.0, "attack": true, "type": "DoS", "timestamp": 1776956290}
+{"ip": "192.168.1.200", "rate": 158.0, "attack": true, "type": "DoS", "timestamp": 1776956292}
+{"ip": "192.168.1.200", "rate": 158.0, "attack": true, "type": "DoS", "timestamp": 1776956294}
+{"ip": "192.168.1.200", "rate": 148.0, "attack": true, "type": "DoS", "timestamp": 1776956296}
+{"ip": "192.168.1.200", "rate": 152.0, "attack": true, "type": "DoS", "timestamp": 1776956298}
+{"ip": "192.168.1.200", "rate": 164.0, "attack": true, "type": "DoS", "timestamp": 1776956300}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776956302}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776956304}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776956306}
+{"ip": "192.168.1.200", "rate": 174.0, "attack": true, "type": "DoS", "timestamp": 1776956308}
+{"ip": "192.168.1.200", "rate": 177.0, "attack": true, "type": "DoS", "timestamp": 1776956310}
+{"ip": "192.168.1.200", "rate": 187.0, "attack": true, "type": "DoS", "timestamp": 1776956312}
+{"ip": "192.168.1.200", "rate": 174.0, "attack": true, "type": "DoS", "timestamp": 1776956314}
+{"ip": "192.168.1.200", "rate": 160.0, "attack": true, "type": "DoS", "timestamp": 1776956316}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776956318}
+{"ip": "192.168.1.200", "rate": 193.0, "attack": true, "type": "DoS", "timestamp": 1776956320}
+{"ip": "192.168.1.200", "rate": 185.0, "attack": true, "type": "DoS", "timestamp": 1776956322}
+{"ip": "192.168.1.200", "rate": 172.0, "attack": true, "type": "DoS", "timestamp": 1776956324}
+{"ip": "192.168.1.200", "rate": 181.0, "attack": true, "type": "DoS", "timestamp": 1776956326}
+{"ip": "192.168.1.200", "rate": 196.0, "attack": true, "type": "DoS", "timestamp": 1776956328}
+{"ip": "192.168.1.200", "rate": 208.0, "attack": true, "type": "DoS", "timestamp": 1776956330}
+{"ip": "192.168.1.200", "rate": 1.0, "attack": true, "type": "DoS", "timestamp": 1776956387}
+{"ip": "192.168.1.200", "rate": 154.0, "attack": true, "type": "DoS", "timestamp": 1776956389}
+{"ip": "192.168.1.200", "rate": 265.0, "attack": true, "type": "DoS", "timestamp": 1776956391}
+{"ip": "192.168.1.200", "rate": 263.0, "attack": true, "type": "DoS", "timestamp": 1776956393}
+{"ip": "192.168.1.200", "rate": 165.0, "attack": true, "type": "DoS", "timestamp": 1776956395}
+{"ip": "192.168.1.200", "rate": 130.0, "attack": true, "type": "DoS", "timestamp": 1776956397}
+{"ip": "192.168.1.200", "rate": 144.0, "attack": true, "type": "DoS", "timestamp": 1776956399}
+{"ip": "192.168.1.200", "rate": 146.0, "attack": true, "type": "DoS", "timestamp": 1776956401}
+{"ip": "192.168.1.200", "rate": 155.0, "attack": true, "type": "DoS", "timestamp": 1776956403}
+{"ip": "192.168.1.200", "rate": 158.0, "attack": true, "type": "DoS", "timestamp": 1776956405}
+{"ip": "192.168.1.200", "rate": 167.0, "attack": true, "type": "DoS", "timestamp": 1776956407}
+{"ip": "192.168.1.200", "rate": 178.0, "attack": true, "type": "DoS", "timestamp": 1776956409}
+{"ip": "192.168.1.200", "rate": 173.0, "attack": true, "type": "DoS", "timestamp": 1776956411}
+{"ip": "192.168.1.200", "rate": 176.0, "attack": true, "type": "DoS", "timestamp": 1776956413}
+{"ip": "192.168.1.200", "rate": 175.0, "attack": true, "type": "DoS", "timestamp": 1776956415}
+{"ip": "192.168.1.200", "rate": 183.0, "attack": true, "type": "DoS", "timestamp": 1776956417}
+{"ip": "192.168.1.200", "rate": 181.0, "attack": true, "type": "DoS", "timestamp": 1776956419}
+{"ip": "192.168.1.200", "rate": 168.0, "attack": true, "type": "DoS", "timestamp": 1776956421}
+{"ip": "192.168.10.10", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776956496}
+{"ip": "192.168.10.20", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776956496}
+{"ip": "192.168.10.10", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776957326}
+{"ip": "192.168.10.20", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776957326}
+{"ip": "192.168.1.200", "rate": 1.0, "attack": false, "type": "Normal", "timestamp": 1776957375}
+{"ip": "192.168.1.200", "rate": 56.0, "attack": false, "type": "Normal", "timestamp": 1776957377}
+{"ip": "192.168.1.200", "rate": 113.0, "attack": true, "type": "Suspicious", "timestamp": 1776957379}
+{"ip": "192.168.1.200", "rate": 1.0, "attack": true, "type": "Suspicious", "timestamp": 1776957398}
+{"ip": "192.168.1.200", "rate": 61.0, "attack": true, "type": "Suspicious", "timestamp": 1776957400}
+{"ip": "192.168.1.200", "rate": 114.0, "attack": true, "type": "DoS", "timestamp": 1776957402}
+{"ip": "192.168.1.200", "rate": 149.0, "attack": true, "type": "DoS", "timestamp": 1776957404}
+{"ip": "192.168.1.200", "rate": 145.0, "attack": true, "type": "DoS", "timestamp": 1776957406}
+{"ip": "192.168.1.200", "rate": 136.0, "attack": true, "type": "DoS", "timestamp": 1776957408}
+{"ip": "192.168.1.200", "rate": 139.0, "attack": true, "type": "DoS", "timestamp": 1776957410}
+{"ip": "192.168.1.200", "rate": 143.0, "attack": true, "type": "DoS", "timestamp": 1776957412}
+{"ip": "192.168.1.200", "rate": 135.0, "attack": true, "type": "DoS", "timestamp": 1776957414}
+{"ip": "192.168.1.200", "rate": 126.0, "attack": true, "type": "DoS", "timestamp": 1776957416}
+{"ip": "192.168.1.200", "rate": 131.0, "attack": true, "type": "DoS", "timestamp": 1776957418}
+{"ip": "192.168.1.200", "rate": 132.0, "attack": true, "type": "DoS", "timestamp": 1776957420}
+{"ip": "192.168.1.200", "rate": 153.0, "attack": true, "type": "DoS", "timestamp": 1776957422}
+{"ip": "192.168.1.200", "rate": 155.0, "attack": true, "type": "DoS", "timestamp": 1776957424}
+{"ip": "192.168.1.200", "rate": 147.0, "attack": true, "type": "DoS", "timestamp": 1776957426}
+{"ip": "192.168.1.200", "rate": 142.0, "attack": true, "type": "DoS", "timestamp": 1776957428}
+{"ip": "192.168.1.200", "rate": 151.0, "attack": true, "type": "DoS", "timestamp": 1776957430}
+{"ip": "192.168.1.200", "rate": 154.0, "attack": true, "type": "DoS", "timestamp": 1776957432}
+{"ip": "192.168.1.200", "rate": 144.0, "attack": true, "type": "DoS", "timestamp": 1776957434}
+{"ip": "192.168.1.200", "rate": 131.0, "attack": true, "type": "DoS", "timestamp": 1776957436}
+{"ip": "192.168.1.200", "rate": 122.0, "attack": true, "type": "DoS", "timestamp": 1776957438}
+{"ip": "192.168.1.200", "rate": 128.0, "attack": true, "type": "DoS", "timestamp": 1776957440}
+{"ip": "192.168.1.200", "rate": 140.0, "attack": true, "type": "DoS", "timestamp": 1776957442}
+{"ip": "192.168.1.200", "rate": 145.0, "attack": true, "type": "DoS", "timestamp": 1776957444}
+{"ip": "192.168.1.200", "rate": 144.0, "attack": true, "type": "DoS", "timestamp": 1776957446}
+{"ip": "192.168.1.200", "rate": 137.0, "attack": true, "type": "DoS", "timestamp": 1776957448}
+{"ip": "192.168.1.200", "rate": 128.0, "attack": true, "type": "DoS", "timestamp": 1776957450}
+{"ip": "192.168.1.200", "rate": 124.0, "attack": true, "type": "DoS", "timestamp": 1776957452}
+{"ip": "192.168.1.200", "rate": 130.0, "attack": true, "type": "DoS", "timestamp": 1776957454}
+{"ip": "192.168.1.200", "rate": 137.0, "attack": true, "type": "DoS", "timestamp": 1776957456}
+{"ip": "192.168.1.200", "rate": 151.0, "attack": true, "type": "DoS", "timestamp": 1776957458}
+{"ip": "192.168.1.200", "rate": 143.0, "attack": true, "type": "DoS", "timestamp": 1776957460}
+{"ip": "192.168.1.200", "rate": 152.0, "attack": true, "type": "DoS", "timestamp": 1776957462}
+{"ip": "192.168.1.200", "rate": 142.0, "attack": true, "type": "DoS", "timestamp": 1776957464}
+{"ip": "192.168.1.200", "rate": 133.0, "attack": true, "type": "DoS", "timestamp": 1776957466}
+{"ip": "192.168.1.200", "rate": 132.0, "attack": true, "type": "DoS", "timestamp": 1776957468}
+{"ip": "192.168.1.200", "rate": 140.0, "attack": true, "type": "DoS", "timestamp": 1776957470}
+{"ip": "192.168.1.200", "rate": 141.0, "attack": true, "type": "DoS", "timestamp": 1776957472}
+{"ip": "192.168.1.200", "rate": 137.0, "attack": true, "type": "DoS", "timestamp": 1776957474}
+{"ip": "192.168.1.200", "rate": 131.0, "attack": true, "type": "DoS", "timestamp": 1776957476}
+{"ip": "192.168.1.200", "rate": 136.0, "attack": true, "type": "DoS", "timestamp": 1776957478}
+{"ip": "192.168.1.200", "rate": 138.0, "attack": true, "type": "DoS", "timestamp": 1776957480}
+{"ip": "192.168.1.200", "rate": 132.0, "attack": true, "type": "DoS", "timestamp": 1776957482}
+{"ip": "192.168.1.200", "rate": 133.0, "attack": true, "type": "DoS", "timestamp": 1776957484}
+{"ip": "192.168.1.200", "rate": 146.0, "attack": true, "type": "DoS", "timestamp": 1776957486}
+{"ip": "192.168.1.200", "rate": 152.0, "attack": true, "type": "DoS", "timestamp": 1776957488}
+{"ip": "192.168.1.200", "rate": 142.0, "attack": true, "type": "DoS", "timestamp": 1776957490}
+{"ip": "192.168.1.200", "rate": 134.0, "attack": true, "type": "DoS", "timestamp": 1776957492}
+{"ip": "192.168.1.200", "rate": 148.0, "attack": true, "type": "DoS", "timestamp": 1776957494}
+{"ip": "192.168.1.200", "rate": 159.0, "attack": true, "type": "DoS", "timestamp": 1776957496}
+{"ip": "192.168.1.200", "rate": 168.0, "attack": true, "type": "DoS", "timestamp": 1776957498}
+{"ip": "192.168.1.200", "rate": 150.0, "attack": true, "type": "DoS", "timestamp": 1776957500}
+{"ip": "192.168.1.200", "rate": 143.0, "attack": true, "type": "DoS", "timestamp": 1776957502}
+{"ip": "192.168.1.200", "rate": 137.0, "attack": true, "type": "DoS", "timestamp": 1776957504}
+{"ip": "192.168.1.200", "rate": 132.0, "attack": true, "type": "DoS", "timestamp": 1776957506}
+{"ip": "192.168.1.200", "rate": 137.0, "attack": true, "type": "DoS", "timestamp": 1776957508}
+{"ip": "192.168.1.200", "rate": 147.0, "attack": true, "type": "DoS", "timestamp": 1776957510}
+{"ip": "192.168.1.200", "rate": 144.0, "attack": true, "type": "DoS", "timestamp": 1776957512}
+{"ip": "192.168.1.200", "rate": 134.0, "attack": true, "type": "DoS", "timestamp": 1776957514}
+{"ip": "192.168.1.200", "rate": 140.0, "attack": true, "type": "DoS", "timestamp": 1776957517}
+{"ip": "192.168.1.200", "rate": 156.0, "attack": true, "type": "DoS", "timestamp": 1776957519}
+{"ip": "192.168.10.10", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "timestamp": 1777092531}
+{"ip": "192.168.10.20", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "timestamp": 1777092531}
+{"ip": "192.168.10.10", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "timestamp": 1777094449}
+{"ip": "192.168.10.20", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "timestamp": 1777094450}
+{"ip": "192.168.1.200", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "timestamp": 1777095534}
+{"ip": "192.168.1.200", "rate": 79.0, "attack": false, "blocked": false, "type": "Normal", "timestamp": 1777095536}
+{"ip": "192.168.1.200", "rate": 151.0, "attack": true, "blocked": true, "type": "Suspicious", "timestamp": 1777095538}
+{"ip": "192.168.1.200", "rate": 157.0, "attack": true, "blocked": true, "type": "DoS", "timestamp": 1777095540}
+{"ip": "192.168.1.200", "rate": 152.0, "attack": true, "blocked": true, "type": "DoS", "timestamp": 1777095542}
+{"ip": "192.168.10.10", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777098124}
+{"ip": "192.168.10.20", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777098124}
+{"ip": "192.168.1.200", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777101467}
+{"ip": "192.168.1.200", "rate": 32.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777101469}
+{"ip": "192.168.1.200", "rate": 58.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777101471}
+{"ip": "192.168.1.200", "rate": 60.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777101473}
+{"ip": "192.168.1.200", "rate": 50.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777101475}
+{"ip": "192.168.1.200", "rate": 49.0, "attack": false, "blocked": false, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777101477}
+{"ip": "192.168.1.200", "rate": 36.0, "attack": false, "blocked": false, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777101479}
+{"ip": "192.168.1.200", "rate": 32.0, "attack": false, "blocked": false, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777101481}
+{"ip": "192.168.1.200", "rate": 35.0, "attack": false, "blocked": false, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777101483}
+{"ip": "192.168.1.200", "rate": 52.0, "attack": false, "blocked": false, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777101485}
+{"ip": "192.168.1.200", "rate": 39.0, "attack": false, "blocked": false, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777101487}
+{"ip": "192.168.1.200", "rate": 45.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777101489}
+{"ip": "192.168.1.200", "rate": 54.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777101491}
+{"ip": "192.168.1.200", "rate": 57.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777101493}
+{"ip": "192.168.1.200", "rate": 57.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777101495}
+{"ip": "192.168.1.200", "rate": 51.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777101497}
+{"ip": "192.168.10.10", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777303460}
+{"ip": "192.168.10.20", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777303460}
+{"ip": "192.168.1.200", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777303487}
+{"ip": "192.168.1.200", "rate": 1129.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303489}
+{"ip": "192.168.1.200", "rate": 2076.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303491}
+{"ip": "192.168.1.200", "rate": 2425.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303493}
+{"ip": "192.168.1.200", "rate": 2325.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303495}
+{"ip": "192.168.1.200", "rate": 2365.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303497}
+{"ip": "192.168.1.200", "rate": 2324.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303499}
+{"ip": "192.168.1.200", "rate": 2256.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303501}
+{"ip": "192.168.1.200", "rate": 2100.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303503}
+{"ip": "192.168.1.200", "rate": 1969.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303505}
+{"ip": "192.168.1.200", "rate": 1864.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303507}
+{"ip": "192.168.1.200", "rate": 1592.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303509}
+{"ip": "192.168.1.200", "rate": 1210.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303511}
+{"ip": "192.168.1.200", "rate": 834.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303513}
+{"ip": "192.168.1.200", "rate": 1091.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303515}
+{"ip": "192.168.1.200", "rate": 1055.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303517}
+{"ip": "192.168.1.200", "rate": 915.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303519}
+{"ip": "192.168.1.200", "rate": 720.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303521}
+{"ip": "192.168.1.200", "rate": 721.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303523}
+{"ip": "192.168.1.200", "rate": 734.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303525}
+{"ip": "192.168.1.200", "rate": 729.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303527}
+{"ip": "192.168.1.200", "rate": 754.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303529}
+{"ip": "192.168.1.200", "rate": 893.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303531}
+{"ip": "192.168.1.200", "rate": 1013.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303533}
+{"ip": "192.168.1.200", "rate": 1116.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303535}
+{"ip": "192.168.1.200", "rate": 1061.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303537}
+{"ip": "192.168.1.200", "rate": 1064.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303539}
+{"ip": "192.168.1.200", "rate": 1079.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303541}
+{"ip": "192.168.1.200", "rate": 1192.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303543}
+{"ip": "192.168.1.200", "rate": 1176.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303545}
+{"ip": "192.168.1.200", "rate": 1534.0, "attack": false, "blocked": false, "type": "DoS", "confidence": 0.0, "timestamp": 1777303547}
+{"ip": "192.168.1.100", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777579465}
+{"ip": "192.168.1.100", "rate": 83.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777579467}
+{"ip": "192.168.1.100", "rate": 163.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579469}
+{"ip": "192.168.1.100", "rate": 203.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777579471}
+{"ip": "192.168.1.100", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777579499}
+{"ip": "192.168.1.100", "rate": 75.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777579501}
+{"ip": "192.168.1.100", "rate": 144.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.49, "timestamp": 1777579503}
+{"ip": "192.168.1.100", "rate": 190.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579505}
+{"ip": "192.168.1.100", "rate": 192.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579507}
+{"ip": "192.168.1.100", "rate": 178.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579509}
+{"ip": "192.168.1.100", "rate": 184.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579511}
+{"ip": "192.168.1.100", "rate": 186.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579513}
+{"ip": "192.168.1.100", "rate": 187.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579515}
+{"ip": "192.168.1.100", "rate": 183.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579517}
+{"ip": "192.168.1.100", "rate": 188.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579519}
+{"ip": "192.168.1.100", "rate": 188.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579521}
+{"ip": "192.168.1.100", "rate": 190.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579523}
+{"ip": "192.168.1.100", "rate": 198.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579525}
+{"ip": "192.168.1.100", "rate": 196.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579527}
+{"ip": "192.168.1.100", "rate": 194.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579529}
+{"ip": "192.168.1.100", "rate": 198.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777579531}
+{"ip": "8.8.8.8", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777581037}
+{"ip": "8.8.8.8", "rate": 96.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777581039}
+{"ip": "8.8.8.8", "rate": 191.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.59, "timestamp": 1777581041}
+{"ip": "8.8.8.8", "rate": 219.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581043}
+{"ip": "8.8.8.8", "rate": 225.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581045}
+{"ip": "8.8.8.8", "rate": 238.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581047}
+{"ip": "8.8.8.8", "rate": 241.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581049}
+{"ip": "8.8.8.8", "rate": 245.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581051}
+{"ip": "8.8.8.8", "rate": 246.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581053}
+{"ip": "8.8.8.8", "rate": 241.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581055}
+{"ip": "8.8.8.8", "rate": 240.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581057}
+{"ip": "8.8.8.8", "rate": 233.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581059}
+{"ip": "8.8.8.8", "rate": 232.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581061}
+{"ip": "8.8.8.8", "rate": 229.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581063}
+{"ip": "8.8.8.8", "rate": 241.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581065}
+{"ip": "8.8.8.8", "rate": 240.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581067}
+{"ip": "8.8.8.8", "rate": 239.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581069}
+{"ip": "8.8.8.8", "rate": 238.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581071}
+{"ip": "8.8.8.8", "rate": 233.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581073}
+{"ip": "8.8.8.8", "rate": 236.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581075}
+{"ip": "8.8.8.8", "rate": 230.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581077}
+{"ip": "8.8.8.8", "rate": 223.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581079}
+{"ip": "8.8.8.8", "rate": 209.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581081}
+{"ip": "8.8.8.8", "rate": 216.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581083}
+{"ip": "8.8.8.8", "rate": 208.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581085}
+{"ip": "8.8.8.8", "rate": 210.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581087}
+{"ip": "8.8.8.8", "rate": 218.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581089}
+{"ip": "8.8.8.8", "rate": 227.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777581091}
+{"ip": "8.8.8.8", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777582665}
+{"ip": "8.8.8.8", "rate": 107.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777582667}
+{"ip": "8.8.8.8", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777582858}
+{"ip": "8.8.8.8", "rate": 112.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777582860}
+{"ip": "8.8.8.8", "rate": 223.0, "attack": true, "blocked": true, "type": "DoS", "confidence": 0.59, "timestamp": 1777582862}
+{"ip": "3.11.1.0", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583821}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583821}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583821}
+{"ip": "192.168.76.130", "rate": 34.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583823}
+{"ip": "192.168.76.129", "rate": 34.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583823}
+{"ip": "192.168.76.130", "rate": 65.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583825}
+{"ip": "192.168.76.129", "rate": 66.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583825}
+{"ip": "192.168.76.130", "rate": 83.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583827}
+{"ip": "192.168.76.129", "rate": 83.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583827}
+{"ip": "192.168.76.130", "rate": 88.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583829}
+{"ip": "192.168.76.129", "rate": 88.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583829}
+{"ip": "192.168.76.130", "rate": 91.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583831}
+{"ip": "192.168.76.129", "rate": 91.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583831}
+{"ip": "192.168.76.130", "rate": 85.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583833}
+{"ip": "192.168.76.129", "rate": 85.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583833}
+{"ip": "192.168.76.130", "rate": 78.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583835}
+{"ip": "192.168.76.129", "rate": 79.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583835}
+{"ip": "192.168.76.130", "rate": 87.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583837}
+{"ip": "192.168.76.129", "rate": 87.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583837}
+{"ip": "192.168.76.130", "rate": 93.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583839}
+{"ip": "192.168.76.129", "rate": 94.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583839}
+{"ip": "192.168.76.130", "rate": 106.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583841}
+{"ip": "192.168.76.129", "rate": 104.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583841}
+{"ip": "192.168.76.130", "rate": 109.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583843}
+{"ip": "192.168.76.129", "rate": 108.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583843}
+{"ip": "192.168.76.130", "rate": 108.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583845}
+{"ip": "192.168.76.129", "rate": 107.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583845}
+{"ip": "192.168.76.130", "rate": 116.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583847}
+{"ip": "192.168.76.129", "rate": 116.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583847}
+{"ip": "192.168.76.130", "rate": 120.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.05, "timestamp": 1777583849}
+{"ip": "192.168.76.129", "rate": 120.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.05, "timestamp": 1777583849}
+{"ip": "192.168.76.130", "rate": 120.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.05, "timestamp": 1777583851}
+{"ip": "192.168.76.129", "rate": 120.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.05, "timestamp": 1777583851}
+{"ip": "192.168.76.130", "rate": 118.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583853}
+{"ip": "192.168.76.129", "rate": 117.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583853}
+{"ip": "192.168.76.130", "rate": 119.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.02, "timestamp": 1777583855}
+{"ip": "192.168.76.129", "rate": 120.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.05, "timestamp": 1777583855}
+{"ip": "192.168.76.130", "rate": 117.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583857}
+{"ip": "192.168.76.129", "rate": 117.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583857}
+{"ip": "192.168.76.130", "rate": 116.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583859}
+{"ip": "192.168.76.129", "rate": 116.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583859}
+{"ip": "192.168.76.130", "rate": 113.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583861}
+{"ip": "192.168.76.129", "rate": 113.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583861}
+{"ip": "192.168.76.130", "rate": 109.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583863}
+{"ip": "192.168.76.129", "rate": 109.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583863}
+{"ip": "192.168.76.130", "rate": 94.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583865}
+{"ip": "192.168.76.129", "rate": 92.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583865}
+{"ip": "192.168.76.130", "rate": 64.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583867}
+{"ip": "192.168.76.129", "rate": 63.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583867}
+{"ip": "192.168.76.130", "rate": 36.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583869}
+{"ip": "192.168.76.129", "rate": 36.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583870}
+{"ip": "192.168.76.130", "rate": 39.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583871}
+{"ip": "192.168.76.129", "rate": 38.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583872}
+{"ip": "192.168.76.130", "rate": 47.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583873}
+{"ip": "192.168.76.129", "rate": 50.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583874}
+{"ip": "192.168.76.130", "rate": 76.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583876}
+{"ip": "192.168.76.129", "rate": 77.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777583876}
+{"ip": "192.168.76.130", "rate": 104.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583878}
+{"ip": "192.168.76.129", "rate": 105.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583878}
+{"ip": "192.168.76.130", "rate": 112.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583880}
+{"ip": "192.168.76.129", "rate": 111.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583880}
+{"ip": "192.168.76.130", "rate": 115.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583882}
+{"ip": "192.168.76.129", "rate": 112.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583882}
+{"ip": "192.168.76.130", "rate": 113.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583884}
+{"ip": "192.168.76.129", "rate": 110.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583884}
+{"ip": "192.168.76.130", "rate": 113.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583886}
+{"ip": "192.168.76.129", "rate": 110.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583886}
+{"ip": "192.168.76.130", "rate": 114.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777583888}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584527}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584527}
+{"ip": "192.168.76.130", "rate": 36.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584529}
+{"ip": "192.168.76.129", "rate": 36.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584529}
+{"ip": "192.168.76.130", "rate": 70.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584531}
+{"ip": "192.168.76.129", "rate": 70.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584531}
+{"ip": "192.168.76.130", "rate": 85.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584534}
+{"ip": "192.168.76.129", "rate": 85.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584534}
+{"ip": "192.168.76.130", "rate": 82.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584536}
+{"ip": "192.168.76.129", "rate": 82.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584536}
+{"ip": "192.168.76.130", "rate": 86.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584538}
+{"ip": "192.168.76.129", "rate": 85.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584538}
+{"ip": "192.168.76.130", "rate": 93.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584540}
+{"ip": "192.168.76.129", "rate": 93.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584540}
+{"ip": "192.168.76.130", "rate": 100.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584542}
+{"ip": "192.168.76.129", "rate": 98.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584542}
+{"ip": "192.168.76.130", "rate": 96.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584544}
+{"ip": "192.168.76.129", "rate": 95.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584544}
+{"ip": "192.168.76.130", "rate": 92.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584546}
+{"ip": "192.168.76.129", "rate": 91.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584546}
+{"ip": "192.168.76.130", "rate": 91.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584548}
+{"ip": "192.168.76.129", "rate": 87.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584548}
+{"ip": "192.168.76.129", "rate": 62.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584550}
+{"ip": "192.168.76.130", "rate": 61.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584550}
+{"ip": "192.168.76.129", "rate": 48.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584552}
+{"ip": "192.168.76.130", "rate": 48.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584552}
+{"ip": "192.168.76.129", "rate": 47.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584554}
+{"ip": "192.168.76.130", "rate": 50.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584554}
+{"ip": "192.168.76.129", "rate": 57.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584556}
+{"ip": "192.168.76.130", "rate": 58.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584556}
+{"ip": "192.168.76.129", "rate": 51.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584558}
+{"ip": "192.168.76.130", "rate": 51.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584558}
+{"ip": "192.168.76.129", "rate": 50.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584560}
+{"ip": "192.168.76.130", "rate": 50.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584560}
+{"ip": "192.168.76.129", "rate": 50.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584562}
+{"ip": "192.168.76.130", "rate": 51.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584562}
+{"ip": "192.168.76.129", "rate": 50.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584564}
+{"ip": "192.168.76.130", "rate": 50.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584564}
+{"ip": "192.168.76.129", "rate": 43.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584567}
+{"ip": "192.168.76.130", "rate": 41.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584567}
+{"ip": "192.168.76.129", "rate": 24.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584569}
+{"ip": "192.168.76.130", "rate": 23.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584569}
+{"ip": "192.168.76.129", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584571}
+{"ip": "192.168.76.130", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584572}
+{"ip": "192.168.76.129", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584573}
+{"ip": "192.168.76.130", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584574}
+{"ip": "192.168.76.129", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584576}
+{"ip": "192.168.76.130", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584576}
+{"ip": "192.168.76.129", "rate": 8.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584578}
+{"ip": "192.168.76.130", "rate": 8.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584579}
+{"ip": "192.168.76.129", "rate": 8.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584581}
+{"ip": "192.168.76.130", "rate": 8.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584581}
+{"ip": "192.168.76.129", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584583}
+{"ip": "192.168.76.130", "rate": 8.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584583}
+{"ip": "192.168.76.129", "rate": 8.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584585}
+{"ip": "192.168.76.130", "rate": 8.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584586}
+{"ip": "192.168.76.129", "rate": 8.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584587}
+{"ip": "192.168.76.130", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584588}
+{"ip": "192.168.76.129", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584589}
+{"ip": "192.168.76.130", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584591}
+{"ip": "192.168.76.129", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584592}
+{"ip": "192.168.76.130", "rate": 8.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584593}
+{"ip": "192.168.76.129", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584594}
+{"ip": "192.168.76.130", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584595}
+{"ip": "192.168.76.129", "rate": 7.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584597}
+{"ip": "192.168.76.130", "rate": 6.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777584598}
+{"ip": "192.168.76.1", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777585585}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777665248}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777665248}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777665274}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777665274}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777665283}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777665283}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777665289}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777665289}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777665292}
+{"ip": "192.168.76.129", "rate": 2.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777665292}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777665297}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777665297}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777667202}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777667207}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777667212}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777667217}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777667222}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777667227}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777667232}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777667237}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777667242}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777667247}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777667252}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777667257}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777667262}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777667267}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777667272}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777667277}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777667282}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777667287}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668806}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668807}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668816}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668816}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668821}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668822}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668842}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668842}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668850}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668850}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668857}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668858}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668860}
+{"ip": "192.168.76.129", "rate": 2.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668860}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668865}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668865}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668870}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777668870}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": true, "confidence": 0.0, "timestamp": 1777913313}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": true, "confidence": 0.0, "timestamp": 1777913313}
+{"ip": "192.168.76.130", "rate": 3.0, "attack": true, "confidence": 0.0, "timestamp": 1777913317}
+{"ip": "192.168.76.130", "rate": 3.0, "attack": true, "confidence": 0.0, "timestamp": 1777913319}
+{"ip": "192.168.76.130", "rate": 3.0, "attack": true, "confidence": 0.0, "timestamp": 1777913321}
+{"ip": "192.168.76.130", "rate": 3.0, "attack": true, "confidence": 0.0, "timestamp": 1777913325}
+{"ip": "192.168.76.130", "rate": 3.0, "attack": true, "confidence": 0.0, "timestamp": 1777913327}
+{"ip": "192.168.76.130", "rate": 3.0, "attack": true, "confidence": 0.0, "timestamp": 1777913329}
+{"ip": "192.168.76.130", "rate": 3.0, "attack": true, "confidence": 0.0, "timestamp": 1777913331}
+{"ip": "192.168.76.130", "rate": 3.0, "attack": true, "confidence": 0.0, "timestamp": 1777913333}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777915529}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777915532}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777915535}
+{"ip": "192.168.76.130", "rate": 3.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777915537}
+{"ip": "192.168.76.130", "rate": 3.0, "attack": true, "blocked": true, "type": "Suspicious", "confidence": 0.0, "timestamp": 1777915540}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777915542}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777915545}
+{"ip": "192.168.76.130", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777979657}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777979657}
+{"ip": "192.168.76.130", "rate": 2.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777979659}
+{"ip": "192.168.76.129", "rate": 2.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1777979659}
+{"ip": "192.168.76.129", "rate": 1.0, "attack": false, "blocked": false, "type": "Normal", "confidence": 0.0, "timestamp": 1778262131}

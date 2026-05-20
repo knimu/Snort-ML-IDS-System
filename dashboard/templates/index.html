@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SOC Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet"/>
+  
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader">
+    <div class="loader-content">
+      <div class="loader-ring"></div>
+      <div class="loader-ring ring2"></div>
+      <div class="loader-text">INITIALIZING...</div>
+      <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Main App -->
+  <div id="app" class="hidden">
+
+    <!-- Header -->
+    <header>
+      <div class="header-left">
+        <div class="logo">
+          <span class="logo-icon">⬡</span>
+          <span class="logo-text">CYBER<span class="accent"></span></span>
+        </div>
+        <div class="breadcrumb">SOC / <span>Live Monitor</span></div>
+      </div>
+      <div class="header-center">
+        <div class="live-badge">
+          <span class="live-dot"></span> LIVE
+        </div>
+        <div class="clock" id="clock">00:00:00</div>
+      </div>
+      <div class="header-right">
+        <div class="sys-stat">
+          <span class="sys-label">THREAT LEVEL</span>
+          <span class="sys-val danger" id="threat-level">ELEVATED</span>
+        </div>
+        <div class="avatar">SOC</div>
+      </div>
+    </header>
+
+    <!-- Summary Cards -->
+    <section class="cards">
+      <div class="card card-blue" id="card-traffic">
+        <div class="card-icon">⬡</div>
+        <div class="card-info">
+          <div class="card-label">TOTAL TRAFFIC</div>
+          <div class="card-value" id="total-traffic">0</div>
+          <div class="card-sub" id="traffic-trend">↑ +0% this cycle</div>
+        </div>
+        <div class="card-sparkline"><canvas id="spark1"></canvas></div>
+      </div>
+      <div class="card card-red" id="card-attacks">
+        <div class="card-icon glow-red">⚠</div>
+        <div class="card-info">
+          <div class="card-label">TOTAL ATTACKS</div>
+          <div class="card-value" id="total-attacks">0</div>
+          <div class="card-sub" id="attack-trend">↑ +0% this cycle</div>
+        </div>
+        <div class="card-sparkline"><canvas id="spark2"></canvas></div>
+      </div>
+      <div class="card card-green">
+        <div class="card-icon">✔</div>
+        <div class="card-info">
+          <div class="card-label">NORMAL TRAFFIC</div>
+          <div class="card-value" id="total-normal">0</div>
+          <div class="card-sub">Clean packets</div>
+        </div>
+        <div class="card-sparkline"><canvas id="spark3"></canvas></div>
+      </div>
+      <div class="card card-orange">
+        <div class="card-icon pulse-icon">◈</div>
+        <div class="card-info">
+          <div class="card-label">ACTIVE THREATS</div>
+          <div class="card-value" id="active-threats">0</div>
+          <div class="card-sub" id="threat-ips">Unique IPs flagged</div>
+        </div>
+        <div class="card-sparkline"><canvas id="spark4"></canvas></div>
+      </div>
+    </section>
+
+    <!-- Charts Row -->
+    <section class="charts-row">
+      <div class="chart-card wide">
+        <div class="chart-header">
+          <div class="chart-title">
+            <span class="chart-icon">📈</span> Traffic Rate Over Time
+          </div>
+          <div class="chart-badge">REAL-TIME</div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="lineChart"></canvas>
+        </div>
+      </div>
+
+      <div class="charts-col">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title"><span class="chart-icon">◎</span> Attack Ratio</div>
+          </div>
+          <div class="chart-wrap pie-wrap">
+            <canvas id="pieChart"></canvas>
+          </div>
+          <div class="pie-legend">
+            <span class="legend-dot red"></span> Attacks
+            <span class="legend-dot green"></span> Normal
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title"><span class="chart-icon">▦</span> Top Attacking IPs</div>
+          </div>
+          <div class="chart-wrap">
+            <canvas id="barChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Alert Table -->
+    <section class="table-section">
+      <div class="table-header">
+        <div class="table-title">
+          <span class="chart-icon">⚡</span> Live Alert Feed
+          <span class="alert-count" id="alert-count">0 events</span>
+        </div>
+        <div class="table-controls">
+          <button class="filter-btn active" onclick="filterTable('all')">ALL</button>
+          <button class="filter-btn" onclick="filterTable('attack')">ATTACKS</button>
+          <button class="filter-btn" onclick="filterTable('normal')">NORMAL</button>
+          <button class="filter-btn clear-btn" onclick="clearTable()">CLEAR</button>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>IP ADDRESS</th>
+              <th>TRAFFIC RATE</th>
+              <th>STATUS</th>
+              <th>TIMESTAMP</th>
+              <th>RISK</th>
+            </tr>
+          </thead>
+          <tbody id="alert-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+<!-- BLOCKED IPS SECTION -->
+<section class="table-section">
+  <div class="table-header">
+    <div class="table-title">
+      <span class="chart-icon">⛔</span> Blocked IPs
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>IP ADDRESS</th>
+          <th>STATUS</th>
+        </tr>
+      </thead>
+      <tbody id="blocked-tbody"></tbody>
+    </table>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+      <div>SOC Dashboard v2.4.1</div>
+      <div>Data refresh: <span id="last-refresh">—</span></div>
+      <div>System: <span class="accent">OPERATIONAL</span></div>
+    </footer>
+
+  </div>
+
+  <!-- Chart.js FIRST -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<!-- YOUR script AFTER -->
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

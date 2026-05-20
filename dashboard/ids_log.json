@@ -1,0 +1,560 @@
+[
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.0,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.5297713
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.534155
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.538007
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.5412204
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.5454462
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.550511
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.5537884
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.5569375
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.5598137
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.565006
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.5698972
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.5743666
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.5792856
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.5830636
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.58703
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.5917969
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.597793
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.602753
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.0,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.6070783
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.0,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.6104505
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.6145997
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.0,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.6195543
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 233.0,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.626007
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.8,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.6318216
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.8,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.6381943
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.6438894
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.647948
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.6519763
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.655366
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.6584542
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.8,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.662529
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.8,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.6672168
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.6718435
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.8,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.674478
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.8,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.677289
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.689023
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.6951332
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.6986952
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7020185
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7044022
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7075603
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.711021
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7173247
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7237346
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.728797
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.734383
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7378585
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7411895
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7445006
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7483506
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7525682
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7558203
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.758866
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7629805
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7679691
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7714703
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.774715
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7787228
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7822697
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7856715
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7920358
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.7989037
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.8042166
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.8086686
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.2,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.8121638
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.8158886
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.4,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.8194892
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.823181
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.8265624
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.830796
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.8355608
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.8412545
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.8467336
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.8512626
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.854285
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.857123
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.8604562
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.8645718
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.6,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 1776750315.8688056
+  },
+  {
+    "ip": "192.168.10.20",
+    "rate": 232.8,
+    "attack": true,
+    "type": "DoS",
+    "timestamp": 
