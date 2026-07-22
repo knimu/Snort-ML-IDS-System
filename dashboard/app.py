@@ -6,9 +6,7 @@ import subprocess
 app = Flask(__name__)
 
 # ─── FILE PATH ─────────────────────────────
-LOG_FILE = "../logs.json"
-
-
+LOG_FILE = "alerts.json"
 # ─── ROUTE: UI ─────────────────────────────
 @app.route("/")
 def index():
@@ -22,16 +20,18 @@ def get_data():
     logs = []
 
     if os.path.exists(LOG_FILE):
-        with open(LOG_FILE, "r") as f:
-            lines = f.readlines()[-50:]
 
-            for line in lines:
-                try:
-                    logs.append(json.loads(line.strip()))
-                except:
-                    continue
+        try:
+            with open(LOG_FILE, "r") as f:
+                logs = json.load(f)
 
-    attack_count = sum(1 for log in logs if log.get("attack") == True)
+        except Exception as e:
+            print(e)
+            logs = []
+
+    logs = logs[-50:]
+
+    attack_count = sum(1 for log in logs if log["attack"])
     normal_count = len(logs) - attack_count
 
     return jsonify({
@@ -39,8 +39,7 @@ def get_data():
         "attack_count": attack_count,
         "normal_count": normal_count
     })
-
-
+                    
 # ─── ROUTE: BLOCKED IPS ────────────────────
 @app.route("/api/blocked")
 def get_blocked():

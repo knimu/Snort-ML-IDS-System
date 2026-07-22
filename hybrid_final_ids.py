@@ -1,5 +1,13 @@
 
 
+
+
+
+
+
+
+
+
 import sys
 import re
 import time
@@ -8,7 +16,7 @@ import json
 import pandas as pd
 import joblib
 from collections import defaultdict
-
+import traceback
 # ================= SAFE IPS =================
 
 SAFE_IPS = {
@@ -53,12 +61,14 @@ print("🚀 TRUE HYBRID IDS STARTED")
 def extract_ip(line):
 
     match = re.search(
-        r'\{TCP\}\s+(\d+\.\d+\.\d+\.\d+):\d+\s+->\s+192\.168\.76\.129:80',
+        r'(\d+\.\d+\.\d+\.\d+)\s*->',
         line
     )
 
-    return match.group(1) if match else None
+    if match:
+        return match.group(1)
 
+    return None
 # ================= BLOCK IP =================
 
 def block_ip(ip):
@@ -99,6 +109,8 @@ def save_dataset(features, label):
 
 def save_alert(ip, features, attack):
 
+    print("SAVE_ALERT CALLED")
+
     alert = {
         "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
         "ip": ip,
@@ -107,33 +119,32 @@ def save_alert(ip, features, attack):
     }
 
     try:
-
         data = []
 
         if os.path.exists(LOG_FILE):
-
             with open(LOG_FILE, "r") as f:
-
                 try:
                     data = json.load(f)
-
                 except:
                     data = []
 
         data.append(alert)
 
+        print("Writing:", os.path.abspath(LOG_FILE))
+
         with open(LOG_FILE, "w") as f:
             json.dump(data, f, indent=4)
 
-    except Exception as e:
-        print("❌ LOG ERROR:", e)
+        print("Finished writing")
 
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
 # ================= MAIN LOOP =================
 
 for line in sys.stdin:
-
+    print("LINE RECEIVED")
     line = line.strip()
-
     if not line:
         continue
 
@@ -141,11 +152,8 @@ for line in sys.stdin:
 
     ip = extract_ip(line)
 
-    if not ip:
-        continue
-
-    print(f"\n🔎 IP: {ip}")
-
+    if ip is None:
+         continue
     # ================= SAFE IP SKIP =================
 
     if ip in SAFE_IPS:
@@ -211,8 +219,14 @@ for line in sys.stdin:
 
     attack_detected = (
         behavioral_attack or
-        (ml_prediction and rate > 150)
+        (ml_prediction and rate > 100)
     )
+    print("====================================")
+    print("Rate:", rate)
+    print("Behavior:", behavioral_attack)
+    print("ML:", ml_prediction)
+    print("Attack:", attack_detected)
+    print("====================================")
 
     # ================= ATTACK =================
 
@@ -223,7 +237,8 @@ for line in sys.stdin:
         save_dataset(features, 1)
 
         save_alert(ip, features, True)
-
+        print("Current directory:", os.getcwd())
+        print("LOG_FILE:", os.path.abspath(LOG_FILE))
         block_ip(ip)
 
     # ================= NORMAL =================

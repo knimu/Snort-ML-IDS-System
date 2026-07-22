@@ -395,14 +395,18 @@ function riskLabel(rate, isAttack) {
 function appendRows(logs) {
   const tbody = document.getElementById('alert-tbody');
   logs.forEach(log => {
+    console.log(log);
+
+    if (!log.features) 
+       console.error("BAD LOG:", log);
     allLogs.push(log);
     rowIndex++;
 
     if (allLogs.length > MAX_TABLE_ROWS)
       allLogs.shift();
 
-    const risk = riskLabel(log.rate, log.attack);
-    const col  = riskColor(log.rate, log.attack);
+    const risk = riskLabel(log.features.packet_rate, log.attack);
+    const col  = riskColor(log.features.packet_rate, log.attack);
 
     const tr = document.createElement('tr');
     tr.className = log.attack ? 'row-attack row-new' : 'row-new';
@@ -411,7 +415,7 @@ function appendRows(logs) {
     tr.innerHTML = `
       <td style="color:#5a7a9a">${rowIndex}</td>
       <td class="ip-cell">${log.ip}</td>
-      <td class="rate-cell">${log.rate.toFixed(1)} <span style="color:#5a7a9a;font-size:0.6rem">Mbps</span></td>
+      <td class="rate-cell">${log.features.packet_rate.toFixed(1)} <span style="color:#5a7a9a;font-size:0.6rem">Mbps</span></td>
       <td>
         <span class="badge ${log.attack ? 'badge-attack' : 'badge-normal'}">
           ${log.attack ? 'ATTACK' : 'NORMAL'}
