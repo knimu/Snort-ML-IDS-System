@@ -110,59 +110,59 @@ Attacker VM
 
 ### Dashboard Running
 
-![Dashboard](screenshots/dashboard-running.png)
+![Dashboard](Screenshots/dashboard-running.png)
 
 ---
 
 ### Normal Traffic Detection
 
-![Normal Traffic](screenshots/normal-traffic-1.png)
+![Normal Traffic](Screenshots/normal-traffic-1.png)
 
-![Normal Traffic](screenshots/normal-traffic-2.png)
+![Normal Traffic](Screenshots/normal-traffic-2.png)
 
 ---
 
 ### Live Attack Detection
 
-![Attack](screenshots/live-attack-1.png)
+![Attack](Screenshots/live-attack-1.png)
 
-![Attack](screenshots/live-attack-2.png)
+![Attack](Screenshots/live-attack-2.png)
 
 ---
 
 ### Attack Detection Terminal
 
-![Attack Terminal](screenshots/attack-detected-terminal.png)
+![Attack Terminal](Screenshots/attack-detected-terminal.png)
 
 ---
 
 ### Normal Detection Terminal
 
-![Normal Terminal](screenshots/normal-detected-terminal.png)
+![Normal Terminal](Screenshots/normal-detected-terminal.png)
 
 ---
 
 ### Automatic IP Blocking
 
-![Blocked IP](screenshots/blocked-ip-terminal.png)
+![Blocked IP](Screenshots/blocked-ip-terminal.png)
 
 ---
 
 ### Dataset Logging
 
-![Dataset Logging](screenshots/dataset-logging.png)
+![Dataset Logging](Screenshots/dataset-logging.png)
 
 ---
 
 ### JSON Alert Logging
 
-![JSON Logging](screenshots/saving-in-json.png)
+![JSON Logging](Screenshots/json-alert-logging.png)
 
 ---
 
 ### Attacker VM
 
-![Attacker VM](screenshots/attacker-vm.png)
+![Attacker VM](Screenshots/attacker-vm.png)
 
 ---
 
