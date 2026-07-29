@@ -1,4 +1,4 @@
-# Hybrid Intrusion Detection and Prevention System (IDS/IPS)
+# Hybrid Intrusion Detection and Prevention System (Snort + Machine Learning + Flask Dashboard)
 
 A Hybrid Intrusion Detection and Prevention System combining:
 
