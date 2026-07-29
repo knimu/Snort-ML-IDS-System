@@ -60,6 +60,13 @@ print("🚀 TRUE HYBRID IDS STARTED")
 
 def extract_ip(line):
 
+    line = line.strip()
+
+    # Case 1: line contains only an IP
+    if re.fullmatch(r"\d+\.\d+\.\d+\.\d+", line):
+        return line
+
+    # Case 2: full Snort alert line
     match = re.search(
         r'(\d+\.\d+\.\d+\.\d+)\s*->',
         line

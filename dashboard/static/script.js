@@ -376,10 +376,10 @@ function updatePieChart(attackCount, normalCount) {
 }
 
 // ─── Table ──────────────────────────────────
-function formatTs(unix) {
-  const d = new Date(unix * 1000);
-  const pad = n => String(n).padStart(2,'0');
-  return `${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+   function formatTs(ts) {
+  if (!ts) return "--:--:--";
+
+  return ts.split(" ")[1];
 }
 function riskColor(rate, isAttack) {
   if (!isAttack) return '#00ff88';

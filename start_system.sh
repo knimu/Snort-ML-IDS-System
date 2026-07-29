@@ -14,15 +14,12 @@ gnome-terminal -- bash -c "source ../ml_env/bin/activate && python3 app.py; exec
 sleep 3
 
 echo "[3] Starting Hybrid IDS Engine..."
-gnome-terminal -- bash -c "
-source ~/snort_project/ml_env/bin/activate &&
-cd ~/snort_project &&
 sudo stdbuf -oL snort -q \
 -c /etc/snort/snort.conf \
 -i ens33 \
--A alert_fast \
--k none 2>/dev/null |
-stdbuf -oL python3 hybrid_final_ids.py;
+-A fast \
+-l . \
+-k none | stdbuf -oL python3 hybrid_final_ids.py
 exec bash"
 
 echo "=================================="
